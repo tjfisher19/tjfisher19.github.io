@@ -1,0 +1,48 @@
+---
+---
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+ <img src="images/rmnp-hallett.jpg" style="width:40%; border:3px solid; margin-right: 20px"" alt="Hallet Peak, RMNP, June 2012" title="Hallet Peak, RMNP, June 2012" align="right">
+ 
+I am an Associate Professor in the <a href="http://www.miamioh.edu/cas/academics/departments/statistics/">Department of Statistics</a> at <a href="http://miamioh.edu/index.html">Miami University</a>. Originally from the city of <span class="dropt" title="">Baltimore<span><img src="images/bmore_night.jpg"/><br/></span></span>, I completed my graduate work at <a href="http://www.clemson.edu/">Clemson University</a> in <a href="https://www.clemson.edu/science/departments/math-stat/">Mathematical Sciences</a>. 
+
+
+When not working on Statistics I like to
+
+* play and coach hockey
+* hike
+* work on genealogy 
+* spend time with my family
+
+
+<style type="text/css">
+<!-- 
+/* properties for class dropv */
+.dropv, .dropv ul {padding: 0; margin: 0; list-style: none;}
+.dropv a {display: inline; width: 170px;}
+.dropv li {float: left; padding: 0px 8px 2px 0px;}  /* all list items */
+.dropv li ul {position: absolute; background: #993399; 
+  padding: 0px 0px 0px 4px; width: 170px; left: -9999px;} /* second-level lists */
+.dropv li:hover ul {left: auto; } /* nest list under hovered list items */
+.dropv li ul li a {color: #ffffff; text-decoration: none; display: block;}
+.dropv li ul li a:hover {color: yellow; background:#663399;} /* Action for drop-down list */
+
+/* properties for class dropt */
+ /* usage: <span class="dropt" title="">HTML text<span style="width:500px;">Pop-up text</span></span> */
+ /* usage: <span class="dropt" title="">HTML text<span><img src="example.jpg"/></span></span> */
+span.dropt {border-bottom: thin dotted; background: #ffeedd;}
+span.dropt:hover {text-decoration: none; background: #ffffff; z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0px; padding: 3px 3px 3px 3px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 2%; background: #ffffff;} 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 4px 0 0 0px; padding: 3px 3px 3px 3px; 
+  border-style:solid; border-color:black; border-width:1px;}
+span.dropt:hover span {margin: 20px 0 0 170px; background: #ffffff; z-index:6;} 
+
+span.imgswap {background-image:url("../img/mmeFloraSm.jpg"); 
+  background-repeat: no-repeat; display:block;}
+span.imgswap:hover img {visibility:hidden;} 
+-->
+</style>

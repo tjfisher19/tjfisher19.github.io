@@ -1,0 +1,17 @@
+name: "Thomas J. Fisher"
+navbar:
+  title: "Thomas J. Fisher "
+  left:
+    - text: "Research"
+      href: research.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/tjfisher19
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/thomas-fisher-0768241b/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+    
+  
