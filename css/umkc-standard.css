@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { margin: 0; padding: 0; }
+#umkc_headerwrap { background: bottom url(images/header-bkgd.gif) repeat-x; width: 100%; height: 100px; font-family: Helvetica; 
+font-size: 68.75%; text-align: center; background-color: #FFFFFF; }
+#umkc_header { background: bottom url(images/university-mo-kc.gif) no-repeat; margin-left: auto; margin-right: auto; width: 940px; height: 100px; }
+#umkc_header a:link, #umkc_header a:visited { color: #36424a; }
+#umkc_header a:hover, #umkc_header a:active  { color: #002147; }
+#umkc_logo { float: left; width: 220px; padding: 0; margin: 0; }
+#umkc_message { float: left; width: 460px; height: 50px; display: block; }
+#umkc_alert { padding: 20px; font-size: 1.5em; color:#FF0000; }
+.skip { position: absolute; top: -20px; }
+#umkc_header form { padding: 0 0 10px 0; margin: 0; }
+#umkc_search { float: right; background: right top url(images/search.gif) no-repeat; width: 240px; height: 43px; padding: 7px 0 0 20px; _padding: 7px 0 0 10px;/*IE fix*/ margin: 0; text-align: right; }
+#soptions { text-align: right; color:#6d7981; }
+.searchRadio { margin: 0 0 3px 2px; _margin: 5px 0 3px 2px; padding: 0; vertical-align: middle; height: 10px; width: 10px; }
+.searchInput { width: 110px; height: 20px; border: none; margin: 4px 0 0 5px; padding: 0; color: #000000; background-color: transparent!important; }
+.searchButton { float: right; height: 20px; width: 22px; background-color: transparent; border: none; margin: 7px 0 0 0; padding: 0; }
+#umkc_navbar { clear: left; position: relative; margin-left: auto; margin-right: auto; text-align: left; z-index: 9999; width: 940px; height: 20px; text-align: right; }
+#umkc_nav, #umkc_nav ul { list-style: none; line-height: 1em; font-weight: normal; padding: 0; margin: 0; }
+#umkc_nav a { display: block; color: #36424a; text-decoration: none; font-size: 11px; padding: 4px; margin: 0; border-right: solid 2px #dfe5e6; }
+#umkc_nav li { float: right; width: auto; padding: 0; }
+#umkc_nav li ul { position: absolute; left: -999em; height: auto; width: 17em; font-weight: normal; background: #e2e9eb; margin: 0; }
+#umkc_nav li li { text-align: left; width: 17em; height: auto; }
+#umkc_nav li ul a { color: #000000; padding: 0.55em; margin: 0; width: 16em; border-right: none; }
+#umkc_nav li ul ul { /* third-and-above-level lists */ width: 16em; margin: -1em 0 0 14em; }
+#umkc_nav li:hover ul ul, #umkc_nav li:hover ul ul ul, #umkc_nav li.sfhover ul ul, #umkc_nav li.sfhover ul ul ul { left: -9999em; }
+#umkc_nav li:hover ul, #umkc_nav li li:hover ul, #umkc_nav li li li:hover ul, #umkc_nav li.sfhover ul, #umkc_nav li li.sfhover ul, #umkc_nav li li li.sfhover ul { /* lists nested under hovered list items */ left: auto; }
+#umkc_nav li:hover, #umkc_nav li.sfhover { background: #68ace5; }
+#umkc_nav li li:hover, #umkc_nav li li.sfhover { background: #68ace5; }
+#umkc_footerwrap { position: relative; width: 100%; text-align: center; font-family: Helvetica; font-size: 65%; }
+#umkc_footer { position: relative; margin-left: auto; margin-right: auto; width: 890px; padding: 30px 50px; color: #6d7981; font-size: 1em; line-height: 1.3em; }
+#umkc_footer a:link, #umkc_footer a:visited, #umkc_footer a:hover, #umkc_footer a:active { color: #6d7981; }
+.footnav a { font-weight: bold; letter-spacing: 1px; padding: 3px;}
+.footnav a:link, .footnav a:visited { text-decoration: none; }
+.footnav a:hover, .footnav a:active { text-decoration: underline; }
