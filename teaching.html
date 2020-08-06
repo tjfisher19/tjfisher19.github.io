@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -332,17 +320,17 @@ $(document).ready(function () {
 <div id="miami-university" class="section level3">
 <h3>Miami University</h3>
 <ul>
-<li>STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a></li>
+<li>STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>, fa20</li>
 <li>STA 301 - Applied Statistics - <a href="syllabi/2014winterSTA301.pdf">w14</a>, <a href="syllabi/2015sprSTA301.pdf">sp15</a></li>
-<li>STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, sp20</li>
+<li>STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, fa20</li>
 <li>STA 401/501 - Probability - <a href="syllabi/2014fallSTA401.pdf">fa14</a></li>
 <li>STA 402/502 - Statistical Programming - <a href="syllabi/2016sprSTA402.pdf">sp16</a>, <a href="syllabi/2017sprSTA402.pdf">sp17</a>, <a href="syllabi/2017fallSTA402.pdf">fa17</a>, <a href="syllabi/2018sprSTA402.pdf">sp18</a>, <a href="syllabi/2019sprSTA402.pdf">sp19</a></li>
-<li>STA 404/504 - Advanced Data Visualization - <a href="syllabi/2019fallSTA404.pdf">fa19</a>, sp20</li>
+<li>STA 404/504 - Advanced Data Visualization - <a href="syllabi/2019fallSTA404.pdf">fa19</a>, <a href="syllabi/2020sprSTA404.pdf">sp20</a></li>
 <li>STA 462/562 - Inferential Statistics - <a href="syllabi/2013fallSTA462.pdf">fa13</a>, <a href="syllabi/2014fallSTA462.pdf">fa14</a></li>
 <li>STA 463/563 - Regression Analysis - <a href="syllabi/2017fallSTA463.pdf">fa17</a></li>
 <li>STA 467/567 - Statistical Learning - <a href="syllabi/2019sprSTA467.pdf">sp19</a></li>
 <li>STA 483/583 - Analysis of Forecasting Systems - <a href="syllabi/2014sprSTA483.pdf">sp14</a>, <a href="syllabi/2015sprSTA483.pdf">sp15</a>, <a href="syllabi/2016sprSTA483.pdf">sp16</a>, <a href="syllabi/2016fallSTA483.pdf">fa16</a>, <a href="syllabi/2017sprSTA483.pdf">sp17</a>, <a href="syllabi/2018fallSTA483.pdf">fa18</a></li>
-<li>STA 650 - Topics in Statistics - Stochaics Module - sp20</li>
+<li>STA 650 - Topics in Statistics - Stochaics Module - <a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a></li>
 <li>STA 664 - Theory of Statistics I - <a href="syllabi/2016fallSTA664.pdf">fa16</a></li>
 <li>STA 665 - Theory of Statistics II - <a href="syllabi/2017sprSTA665.pdf">sp17</a></li>
 <li>STA 667 - Multivariate Analysis - <a href="syllabi/2013fallSTA667.pdf">fa13</a></li>
@@ -420,6 +408,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

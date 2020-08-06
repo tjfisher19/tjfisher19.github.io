@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -86,7 +86,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -246,18 +246,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -341,15 +329,22 @@ $(document).ready(function () {
 Selected Publications
 </h3>
 <ul>
-<li><strong>Fisher, Thomas J.</strong>, Sun, Xiaoqian, Gallagher, Colin M., <a href="http://dx.doi.org/10.1016/j.jmva.2010.07.004">A New Test for Sphericity of the Covariance Matrix for High Dimensional Data</a>, <em>Journal of Multivariate Analysis</em>, Vol. 101, No. 10, Nov. 2010, 2554-2570.</li>
-<li><strong>Fisher, Thomas J.</strong>, Sun, Xiaoqian, <a href="http://dx.doi.org/10.1016/j.csda.2010.12.006">Improved Stein-type shrinkage estimators for the high-dimensional multivariate normal covariance matrix</a>, <em>Computational Statistics and Data Analysis</em>, Vol. 55, No. 5., May 2011, 1909-1918.</li>
-<li>Piccirillo, Sarah, Wang, Hsiao-Lin, <strong>Fisher, Thomas J.</strong> and Honigberg, Saul M., <a href="http://www.biomedcentral.com/1472-6750/11/120">GAL1-SceI directed site-specific genomic (gsSSG) mutagenesis: a method for precisely targeting point mutations in S. cerevisiae</a>, <em>BMC Biotechnology</em>, 11:120, Dec. 2011.</li>
-<li><strong>Fisher, Thomas J.</strong> <a href="http://dx.doi.org/10.1016/j.jspi.2011.07.019">On Testing for an Identity Covariance Matrix when the Dimensionality Equals or Exceeds the Sample Size</a>, <em>Journal of Statistical Planning and Inference</em>, Vol. 142, Issue 1, Jan. 2012, Pages 312–326.</li>
-<li><strong>Fisher, Thomas J.</strong>, Gallagher, Colin M., <a href="http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2012.688465">New Weighted Portmanteau Statistics for Time Series Goodness-of-Fit Testing</a>, <em>Journal of the American Statistical Association</em>, Vol. 107, Issue 498, 2012, Pages 777-787.</li>
-<li>Cui, Yunwei, <strong>Fisher, Thomas J.</strong>, Wu, Rongning, <a href="http://dx.doi.org/10.1016/j.jspi.2013.10.010">Diagnostic tests for non-causal time series with infinite variance</a>,<br> <em>Journal of Statistical Planning and Inference</em>, Vol. 147, April 2014, Page 117-131.</li>
-<li>Gallagher, Colin M., <strong>Fisher, Thomas J.</strong>, Shen, Jie, <a href="http://www.tandfonline.com/doi/abs/10.1080/00949655.2013.874424#.UtWc19_LLFI">A Cauchy estimator test for autocorrelation</a>, <em>Journal of Statistical Computation and Simulation</em>, in press, 2014.</li>
-<li>Gallagher, Colin M., <strong>Fisher, Thomas J.</strong> <a href="http://onlinelibrary.wiley.com/doi/10.1111/jtsa.12093/abstract">On Weighted Portmanteau Tests for Time Series Goodness-of-fit</a> <em>Journal of Time Series Analysis</em>, in press, 2014.</li>
-<li>Robbins, Michael W., <strong>Fisher, Thomas J.</strong> <a href="">Cross-Correlation Matrices for Tests of Independence and Causality between Two Multivariate Time Series</a><br> <em>Journal of Business and Economic Statistics</em>, in press, 2014.</li>
+<li><p><strong>Fisher, Thomas J.</strong>, Sun, Xiaoqian, Gallagher, Colin M., <a href="http://dx.doi.org/10.1016/j.jmva.2010.07.004">A New Test for Sphericity of the Covariance Matrix for High Dimensional Data</a>, <em>Journal of Multivariate Analysis</em>, Vol. 101, No. 10, Nov. 2010, 2554-2570.</p></li>
+<li><p><strong>Fisher, Thomas J.</strong>, Sun, Xiaoqian, <a href="http://dx.doi.org/10.1016/j.csda.2010.12.006">Improved Stein-type shrinkage estimators for the high-dimensional multivariate normal covariance matrix</a>, <em>Computational Statistics and Data Analysis</em>, Vol. 55, No. 5., May 2011, 1909-1918.</p></li>
+<li><p><strong>Fisher, Thomas J.</strong> <a href="http://dx.doi.org/10.1016/j.jspi.2011.07.019">On Testing for an Identity Covariance Matrix when the Dimensionality Equals or Exceeds the Sample Size</a>, <em>Journal of Statistical Planning and Inference</em>, Vol. 142, Issue 1, Jan. 2012, Pages 312–326.</p></li>
+<li><p><strong>Fisher, Thomas J.</strong>, Gallagher, Colin M., <a href="http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2012.688465">New Weighted Portmanteau Statistics for Time Series Goodness-of-Fit Testing</a>, <em>Journal of the American Statistical Association</em>, Vol. 107, Issue 498, 2012, Pages 777-787.</p></li>
+<li><p>Cui, Yunwei, <strong>Fisher, Thomas J.</strong>, Wu, Rongning, <a href="http://dx.doi.org/10.1016/j.jspi.2013.10.010">Diagnostic tests for non-causal time series with infinite variance</a>,<br> <em>Journal of Statistical Planning and Inference</em>, Vol. 147, April 2014, Pages 117-131.</p></li>
+<li><p>Gallagher, Colin M., <strong>Fisher, Thomas J.</strong> <a href="http://onlinelibrary.wiley.com/doi/10.1111/jtsa.12093/abstract">On Weighted Portmanteau Tests for Time Series Goodness-of-fit</a> <em>Journal of Time Series Analysis</em>, Vol. 36, Issue 1, January 2015, Pages 67-83.</p></li>
+<li><p>Robbins, Michael W., <strong>Fisher, Thomas J.</strong> <a href="https://www.tandfonline.com/doi/abs/10.1080/07350015.2014.962699">Cross-Correlation Matrices for Tests of Independence and Causality between Two Multivariate Time Series</a> <em>Journal of Business and Economic Statistics</em>, Vol. 33, Issue 4, 2015, Pages 459-473.</p></li>
+<li><p><strong>Fisher, Thomas J.</strong>, Robbins, Michael W. <a href="https://doi.org/10.5705/ss.202016.0286">An Improved Measure for Lack of Fit in Time Series Models</a>, <em>Statistica Sinica</em>, Vol 28, 2018, Pages 1285-1305.</p></li>
+<li><p><strong>Fisher, Thomas J.</strong>, Robbins, Michael W. <a href="https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1395364#.Xyw8HChKiM8">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, <em>The American Statistician</em>, Vol. 73, Issue 3, 2019, Pages 232-242.</p></li>
+</ul>
+<h3>
+Selected Presentations
+</h3>
+<ul>
+<li><p><a href="docs/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)</p></li>
+<li><p><a href="docs/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, Invited Presentation to Joint Statistics Meetings, August 2020. (3.4MB pdf)</p></li>
 </ul>
 <h3>
 Other Publications
@@ -388,6 +383,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
