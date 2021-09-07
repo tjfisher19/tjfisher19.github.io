@@ -13,24 +13,38 @@
 
 <title>Research</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -79,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +84,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +118,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +130,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +141,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +169,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -277,6 +247,24 @@ $(document).ready(function () {
         <li>
   <a href="research.html">Research</a>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Undergraduate Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="url.html">Overview</a>
+    </li>
+    <li>
+      <a href="url_presentations.html">Student presentations</a>
+    </li>
+    <li>
+      <a href="url_results.html">Fun Results</a>
+    </li>
+  </ul>
+</li>
 <li>
   <a href="teaching.html">Teaching</a>
 </li>
@@ -284,19 +272,19 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fa fa-id-card"></span>
+    <span class="fas fa-id-card"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/tjfisher19">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/thomas-fisher-0768241b/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -305,7 +293,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -338,6 +326,8 @@ Selected Publications
 <li><p>Robbins, Michael W., <strong>Fisher, Thomas J.</strong> <a href="https://www.tandfonline.com/doi/abs/10.1080/07350015.2014.962699">Cross-Correlation Matrices for Tests of Independence and Causality between Two Multivariate Time Series</a> <em>Journal of Business and Economic Statistics</em>, Vol. 33, Issue 4, 2015, Pages 459-473.</p></li>
 <li><p><strong>Fisher, Thomas J.</strong>, Robbins, Michael W. <a href="https://doi.org/10.5705/ss.202016.0286">An Improved Measure for Lack of Fit in Time Series Models</a>, <em>Statistica Sinica</em>, Vol 28, 2018, Pages 1285-1305.</p></li>
 <li><p><strong>Fisher, Thomas J.</strong>, Robbins, Michael W. <a href="https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1395364#.Xyw8HChKiM8">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, <em>The American Statistician</em>, Vol. 73, Issue 3, 2019, Pages 232-242.</p></li>
+<li><p>Sun, Zequn, <strong>Fisher, Thomas J.</strong> <a href="https://www.tandfonline.com/doi/full/10.1080/02664763.2020.1783519">Testing for correlation between two time series using a parametric bootstrap</a>, <em>Journal of Applied Statistics</em>, Vol 48, Issue 11, 2021, Pages 2042-2063.</p></li>
+<li><p>Cirkovic, Daniel, <strong>Fisher, Thomas J.</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2680">On testing for the equality of autocovariance in time series</a>, <em>Environmetrics</em>, in press, 2021.</p></li>
 </ul>
 <h3>
 Selected Presentations
@@ -345,6 +335,7 @@ Selected Presentations
 <ul>
 <li><p><a href="docs/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)</p></li>
 <li><p><a href="docs/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, Invited Presentation to Joint Statistics Meetings, August 2020. (3.4MB pdf)</p></li>
+<li><p><a href="docs/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to Joint Statistics Meetings, August 2021 (1 MB)</p></li>
 </ul>
 <h3>
 Other Publications
@@ -375,7 +366,7 @@ Major Thesis Work
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -393,7 +384,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
