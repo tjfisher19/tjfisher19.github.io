@@ -1,0 +1,25 @@
+---
+title: "Contact Information"
+---
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## Thomas J. Fisher, PhD
+
+Associate Professor
+
+Department of Statistics
+
+Miami University
+
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+
+100 Bishop Circle
+
+311 Upham Hall
+
+Oxford, OH 45056
+
+fishert4@miamioh.edu
+

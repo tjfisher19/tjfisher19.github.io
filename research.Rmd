@@ -1,0 +1,103 @@
+---
+title: "Research"
+---
+
+  <img
+    src="images/sas-donald.jpg"
+    alt="Meeting Donald Duck at 2012 SAS Global Forum, April 2012"
+    title="Meeting Donald Duck at 2012 SAS Global Forum, April 2012"
+    align="right"
+    style="width:30%; border:3px solid; margin-left: 20px; margin-right: 5px"
+  />
+
+My general research focus falls under the umbrella of mathematical statistics with applications to ecology and finance. Specifically I tend to work on problems in time series and multivariate analysis but I have dabbled in the development machine learning and Bayesian methods.
+
+<a href="http://scholar.google.com/citations?user=yWlETysAAAAJ">Google Scholar Profile</a>
+
+<a href="https://www.researchgate.net/profile/Thomas_Fisher5">ResearchGate Profile</a>
+
+<a href="http://www.scopus.com/authid/detail.url?authorId=36241625400">Scopus Profile</a>
+
+<h3>Selected Publications</h3>
+
+* **Fisher, Thomas J.**, Sun, Xiaoqian, Gallagher, Colin M.,
+ <a href="http://dx.doi.org/10.1016/j.jmva.2010.07.004">A New Test for Sphericity of the Covariance Matrix for High Dimensional Data</a>, 
+ *Journal of Multivariate Analysis*, Vol. 101, No. 10, Nov. 2010, 2554-2570.
+* **Fisher, Thomas J.**, Sun, Xiaoqian,
+<a href="http://dx.doi.org/10.1016/j.csda.2010.12.006">Improved Stein-type shrinkage estimators for the high-dimensional multivariate normal covariance matrix</a>, 
+*Computational Statistics and Data Analysis*, Vol. 55, No. 5., May 2011, 1909-1918. 
+* **Fisher, Thomas J.**
+<a href="http://dx.doi.org/10.1016/j.jspi.2011.07.019">On Testing for an Identity Covariance Matrix when the Dimensionality Equals or Exceeds the Sample Size</a>,
+*Journal of Statistical Planning and Inference*, Vol. 142, Issue 1, Jan. 2012, Pages 312–326.
+* **Fisher, Thomas J.**, Gallagher, Colin M., 
+<a href="http://amstat.tandfonline.com/doi/abs/10.1080/01621459.2012.688465">New Weighted Portmanteau Statistics for Time Series Goodness-of-Fit Testing</a>,
+*Journal of the American Statistical Association*, Vol. 107, Issue 498, 2012, Pages 777-787.
+* Cui, Yunwei, **Fisher, Thomas J.**, Wu, Rongning, 
+<a href="http://dx.doi.org/10.1016/j.jspi.2013.10.010">Diagnostic tests for non-causal time series with infinite variance</a>,<br>
+*Journal of Statistical Planning and Inference*, Vol. 147, April 2014, Pages 117-131.
+* Gallagher, Colin M., **Fisher, Thomas J.**
+<a href="http://onlinelibrary.wiley.com/doi/10.1111/jtsa.12093/abstract">On Weighted Portmanteau Tests for Time Series Goodness-of-fit</a>
+*Journal of Time Series Analysis*, Vol. 36, Issue 1, January 2015, Pages 67-83.
+* Robbins, Michael W., **Fisher, Thomas J.**
+<a href="https://www.tandfonline.com/doi/abs/10.1080/07350015.2014.962699">Cross-Correlation Matrices for Tests of Independence and Causality between Two Multivariate Time Series</a>
+*Journal of Business and Economic Statistics*, Vol. 33, Issue 4, 2015, Pages 459-473.
+
+* **Fisher, Thomas J.**, Robbins, Michael W. <a href="https://doi.org/10.5705/ss.202016.0286">An Improved Measure for Lack of Fit in Time Series Models</a>, *Statistica Sinica*, Vol 28, 2018, Pages 1285-1305.
+
+* **Fisher, Thomas J.**, Robbins, Michael W. <a href="https://amstat.tandfonline.com/doi/abs/10.1080/00031305.2017.1395364#.Xyw8HChKiM8">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, *The American Statistician*, Vol. 73, Issue 3, 2019, Pages 232-242.
+
+* Sun, Zequn, **Fisher, Thomas J.** <a href="https://www.tandfonline.com/doi/full/10.1080/02664763.2020.1783519">Testing for correlation between two time series using a parametric bootstrap</a>, *Journal of Applied Statistics*, Vol 48, Issue 11, 2021, Pages 2042-2063.
+
+* Cirkovic, Daniel, **Fisher, Thomas J.** <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2680">On testing for the equality of autocovariance in time series</a>, *Environmetrics*, in press, 2021.
+
+
+<h3>Selected Presentations</h3>
+* <a href="docs/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)
+
+* <a href="docs/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, 
+Invited Presentation to Joint Statistics Meetings, August 2020. (3.4MB pdf)
+
+* <a href="docs/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to Joint Statistics Meetings, August 2021 (1 MB)
+
+
+<h3>Other Publications</h3>
+* **Fisher, Thomas J.**
+<a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDEQFjAB&url=http%3A%2F%2Fsupport.sas.com%2Fresources%2Fpapers%2Fproceedings11%2F327-2011.pdf&ei=jjNpUvOjNJKgkQeGxYCAAg&usg=AFQjCNHhsHTcYerziJU1SfV7B9pd-BUxFA&sig2=Yv426md5dqc9MyDyUX3K9g">Testing Adequacy of ARMA Models using a Weighted Portmanteau Test on the Residual Autocorrelations</a>,
+*Contributed Paper to SAS Global Forum 2011*, 327-2011, 5 April 2011.
+
+* **Fisher, Thomas J.**
+<a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&ved=0CFYQFjAF&url=http%3A%2F%2Fsupport.sas.com%2Fresources%2Fpapers%2Fproceedings12%2F338-2012.pdf&ei=vzFpUtqzJM3pkAfE1YHoAQ&usg=AFQjCNGuxRb6a5YXphXUhZ4jeODz2Yx6lw&sig2=tgY1y-N20zdlRVn7YR6iQg&bvm=bv.55123115,d.eW0">Weighted Portmanteau Tests Revisited: Detecting Heteroscedasticity, Fitting Nonlinear and Multivariate Time Series</a>,
+*Invited Paper to SAS Global Forum 2012*, 338-2012, 24 April 2012.
+
+* **Fisher, Thomas J.**
+<a href="http://cran.r-project.org/web/packages/WeightedPortTest/index.html"><font face="courier">WeightedPortTest:</font> Weighted Portmanteau Tests for Time Series Goodness-of-fit</a>
+R Package based on Fisher and Gallagher (2012).
+
+* **Fisher, Thomas J.**
+<a href="http://www.tandfonline.com/doi/abs/10.1080/10543406.2012.713289#.Umk0BHiUxRo">A Review of: “Practical Multivariate Analysis, Fifth Edition, by A. Afifi, S. May, and V. A. Clark”</a>,<br>
+*Journal of Biopharmaceutical Statistics*, Vol. 22, Issue 6, 2012, Pages 1280-1283.
+
+* Gallagher, Colin M., **Fisher, Thomas J.**
+<a href="http://www.clemson.edu/ces/math/technical_reports/gallagher.TR2013.pdf">A Comparison of Various Weighted Portmanteau Tests for Time Series Goodness-of-fit</a>,
+*Technical Report*, Clemson University Technical Reports, 2013.
+
+* Garrett, Robert C., Nar, Austin, **Fisher, Thomas J.**, Maurer, Karsten
+<a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html"><font face="courier">ggvoronoi:</font> Voronoi Diagrams and Heatmaps with 'ggplot2'</a>
+R packages associated with Garrett, Nar, Fisher and Maurer (2018).
+
+
+<h3>Major Thesis Work</h3>
+
+* **Dissertation:**
+<a href="docs/fisher-diss.pdf">On the Testing and Estimation of High-dimensional Covariance Matrices</a>, 
+Department of Mathematical Sciences, Clemson University, December 2009.</a> (766KB pdf)
+
+* **Masters Project**
+<a href="docs/fisher-ms-proj.pdf">Simulation Study for Single-Index Models</a>,
+Department of Mathematical Sciences, Clemson University, April 2006. (707KB pdf)
+
+* **Senior Project**
+<a href="docs/fisher-algo.pdf">Simulating the Pick-up Stones game: A dynamic approach</a>, 
+Department of Computer Science and Electrical Engineering, University of Maryland Baltimore County., December 2003. (282KB pdf)
+
+

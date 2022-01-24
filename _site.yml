@@ -1,0 +1,34 @@
+name: "Thomas J. Fisher Website"
+navbar:
+  left:
+    - text: "Home"
+      icon: fas fa-home
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Undergraduate Research"
+      menu: 
+      - text: "Overview"
+        href: url.html
+      - text: "Student presentations"
+        href: url_presentations.html
+      - text: "Fun Results"
+        href: url_results.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fas fa-id-card
+      href: contact.html
+    - icon: fab fa-github fa-lg
+      href: https://github.com/tjfisher19
+    - icon: fab fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/thomas-fisher-0768241b/
+
+output:
+  html_document:
+     theme: cosmo
+     highlight: textmate
+     css: styles.css
+
+
+  

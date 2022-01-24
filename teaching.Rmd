@@ -1,0 +1,65 @@
+---
+title: "Teaching"
+---
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+## Courses
+
+### Miami University
+
+* STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>, <a href="syllabi/2020fallSTA261.pdf">fa20</a>, <a href="syllabi/2021sprSTA261.pdf">sp21</a>
+* STA 301 - Applied Statistics - <a href="syllabi/2014winterSTA301.pdf">w14</a>, <a href="syllabi/2015sprSTA301.pdf">sp15</a>
+* STA 308 - Introduction to Programming and Scripting for Data Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>
+* STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a>
+* STA 401/501 - Probability - <a href="syllabi/2014fallSTA401.pdf">fa14</a>
+* STA 402/502 - Statistical Programming - <a href="syllabi/2016sprSTA402.pdf">sp16</a>, <a href="syllabi/2017sprSTA402.pdf">sp17</a>, <a href="syllabi/2017fallSTA402.pdf">fa17</a>, <a href="syllabi/2018sprSTA402.pdf">sp18</a>, <a href="syllabi/2019sprSTA402.pdf">sp19</a>
+* STA 404/504 - Advanced Data Visualization - <a href="syllabi/2019fallSTA404.pdf">fa19</a>, <a href="syllabi/2020sprSTA404.pdf">sp20</a>, <a href="syllabi/2021fallSTA404.pdf">fa21</a>
+* STA 462/562 - Inferential Statistics - <a href="syllabi/2013fallSTA462.pdf">fa13</a>, <a href="syllabi/2014fallSTA462.pdf">fa14</a>
+* STA 463/563 - Regression Analysis - <a href="syllabi/2017fallSTA463.pdf">fa17</a>
+* STA 467/567 - Statistical Learning - <a href="syllabi/2019sprSTA467.pdf">sp19</a>
+* STA 483/583 - Analysis of Forecasting Systems - <a href="syllabi/2014sprSTA483.pdf">sp14</a>, <a href="syllabi/2015sprSTA483.pdf">sp15</a>, <a href="syllabi/2016sprSTA483.pdf">sp16</a>, <a href="syllabi/2016fallSTA483.pdf">fa16</a>, <a href="syllabi/2017sprSTA483.pdf">sp17</a>, <a href="syllabi/2018fallSTA483.pdf">fa18</a>
+* STA 650 - Topics in Statistics - Stochaics Module - <a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a>
+* STA 664 - Theory of Statistics I - <a href="syllabi/2016fallSTA664.pdf">fa16</a>
+* STA 665 - Theory of Statistics II - <a href="syllabi/2017sprSTA665.pdf">sp17</a>
+* STA 667 - Multivariate Analysis - <a href="syllabi/2013fallSTA667.pdf">fa13</a>
+
+## Data for courses
+
+* Forest Fire data
+    + http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv
+    + http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.names
+    + http://www.dsi.uminho.pt/~pcortez/fires.pdf
+* Baseball Hitting Statistics
+    + http://www.seanlahman.com/baseball-archive/statistics/
+    + <a href="data/Lahman_Batting2018.csv">Lahman_Batting2018.csv</a>
+* Yearly Mean Sunspots
+    + http://www.sidc.be/silso/infosnytot
+    + <a href="data/sunspots_yearly.csv">sunspots_yearly.csv</a>
+* Ohio Behavioral Risk Factor Surveillance System
+    + https://www.cdc.gov/brfss/annual_data/annual_2018.html
+    + https://www.cdc.gov/brfss/annual_data/2018/pdf/codebook18_llcp-v2-508.pdf
+    + <a href="data/ohioBRFSS2018.csv">ohioBRFSS2018.csv</a>
+* Census Bureau - Retail Trade and Food Services
+    + https://www.census.gov/econ/currentdata/dbsearch?program=MRTS&startYear=1992&endYear=2019&categories=44X72&dataType=SM&geoLevel=US&adjusted=1&notAdjusted=1&submit=GET+DATA&releaseScheduleId=
+    + <a href="data/monthlyRetailNSA.xls">monthlyRetailNSA.xls</a>
+    + <a href="data/monthlyRetailNSA.csv">monthlyRetailNSA.csv</a>
+* Weekly US Unemployment Insurance Claims (funky format)
+    + <a href="data/usUnemploymentClaims.csv">usUnemploymentClaims.csv</a>
+* Opioid deaths from CDC and related
+    + <a href="data/stateOpioidDeaths2012.csv">stateOpioidDeaths2012.csv</a>
+    + <a href="data/stateOpioidDeaths2017.csv">stateOpioidDeaths2017.csv</a>
+    + <a href="data/state_Opioid_Deaths2019.csv">state_Opioid_Deaths2019.csv</a>
+    + <a href="data/state_abb_codes.csv">state_abb_codes.csv</a>
+    + <a href="data/censusRegions.csv">censusRegions.csv</a>
+* Cincinnati Weather Forecast
+    + <a href="https://community.amstat.org/stat-computing/data-expo/data-expo-2018">Data Expo 2018</a>
+    + <a href="data/cincy2016forecast.txt">cincy2016forecast.txt</a>
+* Facebook Metrics
+    + <a href="data/dataset_Facebook.csv">dataset_Facebook.csv</a>
+    + <a href="data/Facebook_metrics.txt">Facebook_metrics.txt</a>
+    + https://archive.ics.uci.edu/ml/datasets/Facebook+metrics
+
+
+
+
+
