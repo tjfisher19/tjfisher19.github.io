@@ -1,4 +1,5 @@
 name: "Thomas J. Fisher Website"
+output_dir: "docs"
 navbar:
   left:
     - text: "Home"

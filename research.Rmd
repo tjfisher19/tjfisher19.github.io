@@ -52,12 +52,12 @@ My general research focus falls under the umbrella of mathematical statistics wi
 
 
 <h3>Selected Presentations</h3>
-* <a href="docs/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)
+* <a href="works/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)
 
-* <a href="docs/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, 
+* <a href="works/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, 
 Invited Presentation to Joint Statistics Meetings, August 2020. (3.4MB pdf)
 
-* <a href="docs/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to Joint Statistics Meetings, August 2021 (1 MB)
+* <a href="works/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to Joint Statistics Meetings, August 2021 (1 MB)
 
 
 <h3>Other Publications</h3>
@@ -89,15 +89,15 @@ R packages associated with Garrett, Nar, Fisher and Maurer (2018).
 <h3>Major Thesis Work</h3>
 
 * **Dissertation:**
-<a href="docs/fisher-diss.pdf">On the Testing and Estimation of High-dimensional Covariance Matrices</a>, 
+<a href="works/fisher-diss.pdf">On the Testing and Estimation of High-dimensional Covariance Matrices</a>, 
 Department of Mathematical Sciences, Clemson University, December 2009.</a> (766KB pdf)
 
 * **Masters Project**
-<a href="docs/fisher-ms-proj.pdf">Simulation Study for Single-Index Models</a>,
+<a href="works/fisher-ms-proj.pdf">Simulation Study for Single-Index Models</a>,
 Department of Mathematical Sciences, Clemson University, April 2006. (707KB pdf)
 
 * **Senior Project**
-<a href="docs/fisher-algo.pdf">Simulating the Pick-up Stones game: A dynamic approach</a>, 
+<a href="works/fisher-algo.pdf">Simulating the Pick-up Stones game: A dynamic approach</a>, 
 Department of Computer Science and Electrical Engineering, University of Maryland Baltimore County., December 2003. (282KB pdf)
 
 
