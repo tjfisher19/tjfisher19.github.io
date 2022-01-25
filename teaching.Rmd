@@ -58,7 +58,10 @@ title: "Teaching"
     + <a href="data/dataset_Facebook.csv">dataset_Facebook.csv</a>
     + <a href="data/Facebook_metrics.txt">Facebook_metrics.txt</a>
     + https://archive.ics.uci.edu/ml/datasets/Facebook+metrics
-
+* Gapminder Data
+    + <a href="data/gapminder2018.RData">gapminder2018.RData</a>
+    + Income, life expectancy, happiness, human development index, population, and mapping of countries to regions. Most recent observed data is 2018, hence the file name.
+    + https://www.gapminder.org/data/
 
 
 
