@@ -43,7 +43,10 @@ title: "Teaching: Datasets for classes"
     + Income, life expectancy, happiness, human development index, population, and mapping of countries to regions. Most recent observed data is 2018, hence the file name.
     + <a href="data/gapminder2018.RData">gapminder2018.RData</a>
     + https://www.gapminder.org/data/
-
+* Ohio Population Estimates (2019)
+    + Extracted from the American Community Survey
+    + Population estimate for each county, stratified by age groups
+    + <a href="data/OhioCountyPopulation_byAge2019.csv">OhioCountyPopulation_byAge2019.csv</a>
 
 
 
