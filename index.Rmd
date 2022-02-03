@@ -10,7 +10,7 @@ Prior to that I completed my undergraduate work in Computer Science at the <a hr
 
 When not working on Statistics I...
 
-* play and coach hockey
+* play and coach <a href="http://www.miamiyouthhockey.com/">hockey</a>
 * volunteer in Cubscout leadership
 * hike
 * work on genealogy 
@@ -18,7 +18,7 @@ When not working on Statistics I...
 * spend time with my family
 
 <br/><br/>
-Reasonably up-to-date CV: <a href="docs/fisher-cv.pdf">fisher-cv.pdf</a>
+Reasonably up-to-date CV: <a href="works/fisher-cv.pdf">fisher-cv.pdf</a>
 
 <style type="text/css">
 <!-- 
