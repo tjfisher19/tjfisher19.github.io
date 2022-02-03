@@ -16,7 +16,13 @@ navbar:
       - text: "Fun Results"
         href: url_results.html
     - text: "Teaching"
-      href: teaching.html
+      menu:
+      - text: "Courses & Syllabus"
+        href: teaching.html
+      - text: "Datasets for class"
+        href: datasets.html
+      - text: "Intro to Statistical Modeling Text"
+        href: "https://tjfisher19.github.io/introStatModeling/"
   right:
     - icon: fas fa-id-card
       href: contact.html

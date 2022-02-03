@@ -1,0 +1,49 @@
+---
+title: "Teaching: Datasets for classes"
+---
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+
+## Data for courses
+
+* Forest Fire data
+    + http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv
+    + http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.names
+    + http://www.dsi.uminho.pt/~pcortez/fires.pdf
+* Baseball Hitting Statistics
+    + http://www.seanlahman.com/baseball-archive/statistics/
+    + <a href="data/Lahman_Batting2018.csv">Lahman_Batting2018.csv</a>
+* Yearly Mean Sunspots
+    + http://www.sidc.be/silso/infosnytot
+    + <a href="data/sunspots_yearly.csv">sunspots_yearly.csv</a>
+* Ohio Behavioral Risk Factor Surveillance System
+    + https://www.cdc.gov/brfss/annual_data/annual_2018.html
+    + https://www.cdc.gov/brfss/annual_data/2018/pdf/codebook18_llcp-v2-508.pdf
+    + <a href="data/ohioBRFSS2018.csv">ohioBRFSS2018.csv</a>
+* Census Bureau - Retail Trade and Food Services
+    + https://www.census.gov/econ/currentdata/dbsearch?program=MRTS&startYear=1992&endYear=2019&categories=44X72&dataType=SM&geoLevel=US&adjusted=1&notAdjusted=1&submit=GET+DATA&releaseScheduleId=
+    + <a href="data/monthlyRetailNSA.xls">monthlyRetailNSA.xls</a>
+    + <a href="data/monthlyRetailNSA.csv">monthlyRetailNSA.csv</a>
+* Weekly US Unemployment Insurance Claims (funky format)
+    + <a href="data/usUnemploymentClaims.csv">usUnemploymentClaims.csv</a>
+* Opioid deaths from CDC and related
+    + <a href="data/stateOpioidDeaths2012.csv">stateOpioidDeaths2012.csv</a>
+    + <a href="data/stateOpioidDeaths2017.csv">stateOpioidDeaths2017.csv</a>
+    + <a href="data/state_Opioid_Deaths2019.csv">state_Opioid_Deaths2019.csv</a>
+    + <a href="data/state_abb_codes.csv">state_abb_codes.csv</a>
+    + <a href="data/censusRegions.csv">censusRegions.csv</a>
+* Cincinnati Weather Forecast
+    + <a href="https://community.amstat.org/stat-computing/data-expo/data-expo-2018">Data Expo 2018</a>
+    + <a href="data/cincy2016forecast.txt">cincy2016forecast.txt</a>
+* Facebook Metrics
+    + <a href="data/dataset_Facebook.csv">dataset_Facebook.csv</a>
+    + <a href="data/Facebook_metrics.txt">Facebook_metrics.txt</a>
+    + https://archive.ics.uci.edu/ml/datasets/Facebook+metrics
+* Gapminder Data
+    + Income, life expectancy, happiness, human development index, population, and mapping of countries to regions. Most recent observed data is 2018, hence the file name.
+    + <a href="data/gapminder2018.RData">gapminder2018.RData</a>
+    + https://www.gapminder.org/data/
+
+
+
+
