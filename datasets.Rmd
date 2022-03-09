@@ -47,6 +47,10 @@ title: "Teaching: Datasets for classes"
     + Extracted from the American Community Survey
     + Population estimate for each county, stratified by age groups
     + <a href="data/OhioCountyPopulation_byAge2019.csv">OhioCountyPopulation_byAge2019.csv</a>
+* Popular baby names in the USA from 1880 to 2020.
+    + <a href="data/usBabyNames1880_2020.csv">usBabyNames1880_2020.csv</a>
+    + Obtained from Kaggle, originally from the US Social Security Administration
+    
 
 
 
