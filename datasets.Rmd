@@ -32,6 +32,7 @@ title: "Teaching: Datasets for classes"
     + <a href="data/state_Opioid_Deaths2019.csv">state_Opioid_Deaths2019.csv</a>
     + <a href="data/state_abb_codes.csv">state_abb_codes.csv</a>
     + <a href="data/censusRegions.csv">censusRegions.csv</a>
+    + <a href="data/marchStateUnemployment.csv">marchStateUnemployment.csv</a>
 * Cincinnati Weather Forecast
     + <a href="https://community.amstat.org/stat-computing/data-expo/data-expo-2018">Data Expo 2018</a>
     + <a href="data/cincy2016forecast.txt">cincy2016forecast.txt</a>
