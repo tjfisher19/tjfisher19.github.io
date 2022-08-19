@@ -51,6 +51,12 @@ title: "Teaching: Datasets for classes"
 * Popular baby names in the USA from 1880 to 2020.
     + <a href="data/usBabyNames1880_2020.csv">usBabyNames1880_2020.csv</a>
     + Obtained from Kaggle, originally from the US Social Security Administration
+* Palmer penguins data for STA 308
+    + Data munged from original Palmer penguins data for use in class
+    + <a href="data/palmer_penguins.csv">palmer_penguins.csv</a>
+    + <a href="data/penguins2007.csv">penguins2007.csv</a>
+    + <a href="data/penguins2008.txt">penguins2008.txt</a>
+    + <a href="data/penguins2009.RData">penguins2009.RData</a>
     
 
 
