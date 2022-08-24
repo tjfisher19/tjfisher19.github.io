@@ -13,7 +13,7 @@
 
 <title>Fisher Undergraduate Research Lab</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +259,7 @@ $(document).ready(function () {
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Undergraduate Research
      
     <span class="caret"></span>
@@ -273,7 +277,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -328,9 +332,24 @@ $(document).ready(function () {
 <div id="statement" class="section level1">
 <h1>Statement</h1>
 <p><img src="images/dataexpoTeam19.jpg" style="width:30%; border:3px solid; margin-left:20px; margin-right: 5px" alt="Team Meeting for the 2019 Data Expo competition" title="Team Meeting for the 2019 Data Expo competition in April 2019" align="right"></img></p>
-<p>I regularly work with undergraduate students on independent study research projects. Many of these projects entail students competing in the Data Expo (a data analysis competition) at the Joint Statistics Meetings however students may perform or assist in the analysis of a collaborative project.</p>
-<p>I am also very involved in the local <a href="https://ww2.amstat.org/education/datafest/">DataFest</a> competition hosted by the <a href="https://miamioh.edu/cads/index.html">Center for Analytics &amp; Data Science</a> at Miami University. I have organized the competition, contribute to the data distribution and have mentored many teams over the years.</p>
-<p>We have been quite successful over the years in the various competitions, if interested in participating feel free to contact me or one of the current/former students working in the lab. Generally, we recruit students after they have completed foundational work (at least STA 363) but with more advanced courses you can make stronger contributions.</p>
+<p>I regularly work with undergraduate students on independent study
+research projects. Many of these projects entail students competing in
+the Data Expo (a data analysis competition) at the Joint Statistics
+Meetings however students may perform or assist in the analysis of a
+collaborative project.</p>
+<p>I am also very involved in the local
+<a href="https://ww2.amstat.org/education/datafest/">DataFest</a>
+competition hosted by the
+<a href="https://miamioh.edu/cads/index.html">Center for Analytics &amp;
+Data Science</a> at Miami University. I have organized the competition,
+contribute to the data distribution and have mentored many teams over
+the years.</p>
+<p>We have been quite successful over the years in the various
+competitions, if interested in participating feel free to contact me or
+one of the current/former students working in the lab. Generally, we
+recruit students after they have completed foundational work (at least
+STA 363) but with more advanced courses you can make stronger
+contributions.</p>
 </div>
 <div id="current-students-alumni" class="section level1">
 <h1>Current Students &amp; Alumni</h1>
@@ -339,22 +358,37 @@ $(document).ready(function () {
 Click to expand
 </summary>
 <ul>
-<li><a href="https://www.linkedin.com/in/emilylmorris/">Emily Morris</a>, c/o 2015 - PhD at University of Michigan (2021), USDA</li>
-<li><a href="https://www.linkedin.com/in/cody-philips-4517b5100/">Cody Philips</a>, c/o 2017 - Data Scientist at Quotient Technology Inc.</li>
-<li><a href="https://www.linkedin.com/in/alantatro/">A.J. Tatro</a>, c/o 2017 - Actuarial Assistant at Allstate</li>
-<li><a href="https://scholars.duke.edu/person/heather.mathews">Heather Mathews</a>, c/o 2017 - PhD Student at Duke University</li>
-<li><a href="https://www.linkedin.com/in/alec-feeman/">Alec Feeman</a>, c/o 2018 - Senior Data Scientist at LendingTree</li>
-<li><a href="https://github.com/garretrc">Robert C. Garrett</a>, c/o 2019 - PhD Student at University of Illinois</li>
-<li><a href="https://www.linkedin.com/in/ritu-narahari-534a8611b/">Ritu Narahari</a>, c/o 2020 - M.S. student at Case Western Reserve</li>
-<li><a href="https://www.austinnar.com/">Austin Nar</a>, c/o 2019 - Data Scientist at 84.51<span class="math inline">\(^\circ\)</span></li>
+<li><a href="https://www.linkedin.com/in/emilylmorris/">Emily
+Morris</a>, c/o 2015 - PhD at University of Michigan (2021), USDA</li>
+<li><a href="https://www.linkedin.com/in/cody-philips-4517b5100/">Cody
+Philips</a>, c/o 2017 - Data Scientist at Quotient Technology Inc.</li>
+<li><a href="https://www.linkedin.com/in/alantatro/">A.J. Tatro</a>, c/o
+2017 - Actuarial Assistant at Allstate</li>
+<li><a href="https://scholars.duke.edu/person/heather.mathews">Heather
+Mathews</a>, c/o 2017 - PhD Student at Duke University</li>
+<li><a href="https://www.linkedin.com/in/alec-feeman/">Alec Feeman</a>,
+c/o 2018 - Senior Data Scientist at LendingTree</li>
+<li><a href="https://github.com/garretrc">Robert C. Garrett</a>, c/o
+2019 - PhD Student at University of Illinois</li>
+<li><a href="https://www.linkedin.com/in/ritu-narahari-534a8611b/">Ritu
+Narahari</a>, c/o 2020 - M.S. student at Case Western Reserve</li>
+<li><a href="https://www.austinnar.com/">Austin Nar</a>, c/o 2019 - Data
+Scientist at 84.51<span class="math inline">\(^\circ\)</span></li>
 <li>Ryan Estep, c/o 2020</li>
-<li><a href="https://www.linkedin.com/in/daniel-cirkovic-0ab7b2168/">Daniel Cirkovic</a>, c/o 2020 - PhD student at Texas A&amp;M</li>
-<li><a href="https://www.linkedin.com/in/benjamin-schweitzer-789175144/">Benjamin Schweitzer</a>, c/o 2020 - Associate Data Scientist at Nielsen</li>
-<li><a href="https://www.linkedin.com/in/tuiyott-alison/">Alison Tuiyott</a>, c/o 2020 - Data Science Associate at JPMorgan Chase &amp; Co.</li>
+<li><a href="https://www.linkedin.com/in/daniel-cirkovic-0ab7b2168/">Daniel
+Cirkovic</a>, c/o 2020 - PhD student at Texas A&amp;M</li>
+<li><a href="https://www.linkedin.com/in/benjamin-schweitzer-789175144/">Benjamin
+Schweitzer</a>, c/o 2020 - Associate Data Scientist at Nielsen</li>
+<li><a href="https://www.linkedin.com/in/tuiyott-alison/">Alison
+Tuiyott</a>, c/o 2020 - Data Science Associate at JPMorgan Chase &amp;
+Co.</li>
 <li>Phuong Ho, c/o 2020</li>
 <li>Matthew Snyder, c/o 2021</li>
-<li><a href="https://www.linkedin.com/in/lydia-carter-oh/">Lydia Carter</a>, c/o 2021 - Current MS Statistics student at Miami</li>
-<li><a href="https://www.linkedin.com/in/coby-warkentin-650b1a191/">Coby Warkentin</a></li>
+<li><a href="https://www.linkedin.com/in/lydia-carter-oh/">Lydia
+Carter</a>, c/o 2021 - Current MS Statistics student at Miami</li>
+<li><a href="https://www.linkedin.com/in/coby-warkentin-650b1a191/">Coby
+Warkentin</a></li>
+<li>Alyson Everett, c/o 2022</li>
 </ul>
 </details>
 <p><br/></p>
@@ -362,19 +396,38 @@ Click to expand
 <div id="published-results" class="section level1">
 <h1>Published Results</h1>
 <ul>
-<li>Renwick, William H., Vanni, Michael J., Fisher, T.J., <strong>Morris, Emily L.</strong>, “<a href="https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/jeq2018.04.0162">Stream Nitrogen, Phosphorus, and Sediment Concentrations Show Contrasting Long-term Trends Associated with Agricultural Change</a>”, <em>Journal of Environmental Quality</em>, 47: 1513-1521, November 2018. (<code>10.2134/jeq2018.04.0162</code>)</li>
-<li><strong>Garrett, Robert C.</strong>, <strong>Nar, Austin</strong>, Fisher, T.J. and Maurer, K.T., “<a href="https://joss.theoj.org/papers/10.21105/joss.01096">ggvoronoi: Voronoi Diagrams and Heatmaps with ggplot2</a>”, <em>Journal of Open Source Software</em>, 3 (32), 1096, December 2018. (<code>10.21105/joss.01096</code>)
+<li>Renwick, William H., Vanni, Michael J., Fisher, T.J.,
+<strong>Morris, Emily L.</strong>,
+“<a href="https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/jeq2018.04.0162">Stream
+Nitrogen, Phosphorus, and Sediment Concentrations Show Contrasting
+Long-term Trends Associated with Agricultural Change</a>”, <em>Journal
+of Environmental Quality</em>, 47: 1513-1521, November 2018.
+(<code>10.2134/jeq2018.04.0162</code>)</li>
+<li><strong>Garrett, Robert C.</strong>, <strong>Nar, Austin</strong>,
+Fisher, T.J. and Maurer, K.T.,
+“<a href="https://joss.theoj.org/papers/10.21105/joss.01096">ggvoronoi:
+Voronoi Diagrams and Heatmaps with ggplot2</a>”, <em>Journal of Open
+Source Software</em>, 3 (32), 1096, December 2018.
+(<code>10.21105/joss.01096</code>)
 <ul>
-<li>R Package: <a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>: Voronoi Diagrams and Heatmaps with ‘ggplot2’</li>
+<li>R Package:
+<a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>:
+Voronoi Diagrams and Heatmaps with ‘ggplot2’</li>
 </ul></li>
-<li><strong>Philips, Cody</strong>, <strong>Garrett, Robert</strong>, <strong>Tatro, A.J.</strong> and Fisher, T.J., “<a href="https://link.springer.com/article/10.1007/s00180-021-01072-9">Crash-Safety Ratings and the True Assessment of Injuries by Vehicle</a>”, <em>Computational Statistics</em>, 36, 1639–1660 February 2021. (<code>10.1007/s00180-021-01072-9</code>)</li>
+<li><strong>Philips, Cody</strong>, <strong>Garrett, Robert</strong>,
+<strong>Tatro, A.J.</strong> and Fisher, T.J.,
+“<a href="https://link.springer.com/article/10.1007/s00180-021-01072-9">Crash-Safety
+Ratings and the True Assessment of Injuries by Vehicle</a>”,
+<em>Computational Statistics</em>, 36, 1639–1660 February 2021.
+(<code>10.1007/s00180-021-01072-9</code>)</li>
 </ul>
 </div>
 <div id="faculty-collaborators" class="section level1">
 <h1>Faculty collaborators</h1>
 <ul>
 <li><a href="http://www.units.miamioh.edu/vannilab/">Mike Vanni</a></li>
-<li><a href="https://www.linkedin.com/in/jing-zhang-b6790795/">Jing Zhang</a></li>
+<li><a href="https://www.linkedin.com/in/jing-zhang-b6790795/">Jing
+Zhang</a></li>
 <li><a href="https://kmaurer.github.io/">Karsten Maurer</a></li>
 </ul>
 </div>

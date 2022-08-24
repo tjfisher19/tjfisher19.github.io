@@ -13,7 +13,7 @@
 
 <title>Teaching: Courses and Syllabus</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +259,7 @@ $(document).ready(function () {
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Undergraduate Research
      
     <span class="caret"></span>
@@ -273,7 +277,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -330,42 +334,94 @@ $(document).ready(function () {
 <div id="miami-university" class="section level3">
 <h3>Miami University</h3>
 <ul>
-<li>STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>, <a href="syllabi/2020fallSTA261.pdf">fa20</a>, <a href="syllabi/2021sprSTA261.pdf">sp21</a></li>
-<li>STA 301 - Applied Statistics - <a href="syllabi/2014winterSTA301.pdf">w14</a>, <a href="syllabi/2015sprSTA301.pdf">sp15</a></li>
-<li>STA 308 - Introduction to Programming and Scripting for Data Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>, <a href="syllabi/2022sprSTA308.pdf">sp22</a></li>
-<li>STA 309 - Building, Managing and Exploring Data Sets in Analytics - <a href="syllabi/2022sprSTA309.pdf">sp22</a></li>
-<li>STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a></li>
-<li>STA 401/501 - Probability - <a href="syllabi/2014fallSTA401.pdf">fa14</a></li>
-<li>STA 402/502 - Statistical Programming - <a href="syllabi/2016sprSTA402.pdf">sp16</a>, <a href="syllabi/2017sprSTA402.pdf">sp17</a>, <a href="syllabi/2017fallSTA402.pdf">fa17</a>, <a href="syllabi/2018sprSTA402.pdf">sp18</a>, <a href="syllabi/2019sprSTA402.pdf">sp19</a></li>
-<li>STA 404/504 - Advanced Data Visualization - <a href="syllabi/2019fallSTA404.pdf">fa19</a>, <a href="syllabi/2020sprSTA404.pdf">sp20</a>, <a href="syllabi/2021fallSTA404.pdf">fa21</a></li>
-<li>STA 462/562 - Inferential Statistics - <a href="syllabi/2013fallSTA462.pdf">fa13</a>, <a href="syllabi/2014fallSTA462.pdf">fa14</a></li>
-<li>STA 463/563 - Regression Analysis - <a href="syllabi/2017fallSTA463.pdf">fa17</a></li>
-<li>STA 467/567 - Statistical Learning - <a href="syllabi/2019sprSTA467.pdf">sp19</a></li>
-<li>STA 483/583 - Analysis of Forecasting Systems - <a href="syllabi/2014sprSTA483.pdf">sp14</a>, <a href="syllabi/2015sprSTA483.pdf">sp15</a>, <a href="syllabi/2016sprSTA483.pdf">sp16</a>, <a href="syllabi/2016fallSTA483.pdf">fa16</a>, <a href="syllabi/2017sprSTA483.pdf">sp17</a>, <a href="syllabi/2018fallSTA483.pdf">fa18</a></li>
-<li>STA 650 - Topics in Statistics - Stochaics Module - <a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a></li>
-<li>STA 664 - Theory of Statistics I - <a href="syllabi/2016fallSTA664.pdf">fa16</a></li>
-<li>STA 665 - Theory of Statistics II - <a href="syllabi/2017sprSTA665.pdf">sp17</a></li>
-<li>STA 667 - Multivariate Analysis - <a href="syllabi/2013fallSTA667.pdf">fa13</a></li>
+<li>STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>,
+<a href="syllabi/2020fallSTA261.pdf">fa20</a>,
+<a href="syllabi/2021sprSTA261.pdf">sp21</a></li>
+<li>STA 301 - Applied Statistics -
+<a href="syllabi/2014winterSTA301.pdf">w14</a>,
+<a href="syllabi/2015sprSTA301.pdf">sp15</a></li>
+<li>STA 308 - Introduction to Programming and Scripting for Data
+Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>,
+<a href="syllabi/2022sprSTA308.pdf">sp22</a>,
+<a href="syllabi/2022fallSTA308.pdf">fa22</a></li>
+<li>STA 309 - Building, Managing and Exploring Data Sets in Analytics -
+<a href="syllabi/2022sprSTA309.pdf">sp22</a>,
+<a href="syllabi/2022fallSTA309.pdf">fa22</a></li>
+<li>STA 363 - Introduction to Statistical Modeling -
+<a href="syllabi/2018sprSTA363.pdf">sp18</a>,
+<a href="syllabi/2018fallSTA363.pdf">fa18</a>,
+<a href="syllabi/2020sprSTA363.pdf">sp20</a>,
+<a href="syllabi/2020fallSTA363.pdf">fa20</a>,
+<a href="syllabi/2021sprSTA363.pdf">sp21</a></li>
+<li>STA 401/501 - Probability -
+<a href="syllabi/2014fallSTA401.pdf">fa14</a></li>
+<li>STA 402/502 - Statistical Programming -
+<a href="syllabi/2016sprSTA402.pdf">sp16</a>,
+<a href="syllabi/2017sprSTA402.pdf">sp17</a>,
+<a href="syllabi/2017fallSTA402.pdf">fa17</a>,
+<a href="syllabi/2018sprSTA402.pdf">sp18</a>,
+<a href="syllabi/2019sprSTA402.pdf">sp19</a></li>
+<li>STA 404/504 - Advanced Data Visualization -
+<a href="syllabi/2019fallSTA404.pdf">fa19</a>,
+<a href="syllabi/2020sprSTA404.pdf">sp20</a>,
+<a href="syllabi/2021fallSTA404.pdf">fa21</a></li>
+<li>STA 462/562 - Inferential Statistics -
+<a href="syllabi/2013fallSTA462.pdf">fa13</a>,
+<a href="syllabi/2014fallSTA462.pdf">fa14</a></li>
+<li>STA 463/563 - Regression Analysis -
+<a href="syllabi/2017fallSTA463.pdf">fa17</a></li>
+<li>STA 467/567 - Statistical Learning -
+<a href="syllabi/2019sprSTA467.pdf">sp19</a></li>
+<li>STA 483/583 - Analysis of Forecasting Systems -
+<a href="syllabi/2014sprSTA483.pdf">sp14</a>,
+<a href="syllabi/2015sprSTA483.pdf">sp15</a>,
+<a href="syllabi/2016sprSTA483.pdf">sp16</a>,
+<a href="syllabi/2016fallSTA483.pdf">fa16</a>,
+<a href="syllabi/2017sprSTA483.pdf">sp17</a>,
+<a href="syllabi/2018fallSTA483.pdf">fa18</a></li>
+<li>STA 650 - Topics in Statistics - Stochaics Module -
+<a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a></li>
+<li>STA 664 - Theory of Statistics I -
+<a href="syllabi/2016fallSTA664.pdf">fa16</a></li>
+<li>STA 665 - Theory of Statistics II -
+<a href="syllabi/2017sprSTA665.pdf">sp17</a></li>
+<li>STA 667 - Multivariate Analysis -
+<a href="syllabi/2013fallSTA667.pdf">fa13</a></li>
 </ul>
 </div>
 <div id="university-of-missouri-kansas-city" class="section level3">
 <h3>University of Missouri-Kansas City</h3>
 <ul>
-<li>Math 300 - Linear Algebra - <a href="syllabi/11fallMath300.pdf">fa11</a></li>
-<li>Stat 235 - Elementary Statistics - <a href="syllabi/10fallStat235syllabus.pdf">fa10</a>, <a href="syllabi/11sprStat235syllabus.pdf">sp11</a>, <a href="syllabi/12sprStat235.pdf">sp12</a>, <a href="syllabi/13sprStat235.pdf">sp13</a></li>
-<li>Stat 436 - Mathematical Statistics I - <a href="syllabi/12fallStat436.pdf">fa12</a></li>
-<li>Stat 5551 - Applied Statistical Analysis - <a href="syllabi/11fallStat5551.pdf">fa11</a>, <a href="syllabi/12fallStat5551.pdf">fa12</a></li>
-<li>Stat 5572 - Multivariate Analysis - <a href="syllabi/11sprStatSyllabus5572.pdf">sp11</a>, <a href="syllabi/12sprStat5572.pdf">sp12</a>, <a href="syllabi/13stat5572syllabus.pdf">sp13</a></li>
+<li>Math 300 - Linear Algebra -
+<a href="syllabi/11fallMath300.pdf">fa11</a></li>
+<li>Stat 235 - Elementary Statistics -
+<a href="syllabi/10fallStat235syllabus.pdf">fa10</a>,
+<a href="syllabi/11sprStat235syllabus.pdf">sp11</a>,
+<a href="syllabi/12sprStat235.pdf">sp12</a>,
+<a href="syllabi/13sprStat235.pdf">sp13</a></li>
+<li>Stat 436 - Mathematical Statistics I -
+<a href="syllabi/12fallStat436.pdf">fa12</a></li>
+<li>Stat 5551 - Applied Statistical Analysis -
+<a href="syllabi/11fallStat5551.pdf">fa11</a>,
+<a href="syllabi/12fallStat5551.pdf">fa12</a></li>
+<li>Stat 5572 - Multivariate Analysis -
+<a href="syllabi/11sprStatSyllabus5572.pdf">sp11</a>,
+<a href="syllabi/12sprStat5572.pdf">sp12</a>,
+<a href="syllabi/13stat5572syllabus.pdf">sp13</a></li>
 </ul>
 </div>
 <div id="clemson-university" class="section level3">
 <h3>Clemson University</h3>
 <ul>
 <li>MthSc 102 - Introduction to Mathematical Analysis - fa05, sp06</li>
-<li>MthSc 106 - Calculus of One Variable - <a href="syllabi/10sprMthsc106syllabus.pdf">sp10</a></li>
+<li>MthSc 106 - Calculus of One Variable -
+<a href="syllabi/10sprMthsc106syllabus.pdf">sp10</a></li>
 <li>MthSc 207 - Multivariate Calculus - sp07</li>
-<li>MthSc 302 - Engineering Statistics - sp08, fa08, <a href="syllabi/09sprMthsc302syllabus.pdf">sp09</a>, <a href="syllabi/10sprMthsc302syllabus.pdf">sp10</a></li>
-<li>MthSc 309 - Introductory Business Statistics - fa07, <a href="syllabi/09fallMthsc309syllabus.pdf">fa09</a></li>
+<li>MthSc 302 - Engineering Statistics - sp08, fa08,
+<a href="syllabi/09sprMthsc302syllabus.pdf">sp09</a>,
+<a href="syllabi/10sprMthsc302syllabus.pdf">sp10</a></li>
+<li>MthSc 309 - Introductory Business Statistics - fa07,
+<a href="syllabi/09fallMthsc309syllabus.pdf">fa09</a></li>
 </ul>
 </div>
 </div>

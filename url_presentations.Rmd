@@ -3,6 +3,8 @@ title: "Student Presentations"
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+Students have regularly presented their findings at national and international conferences, as well as the annual <a href="https://www.miamioh.edu/student-research/research-opportunities/urf/index.html">Undergraduate Research Forum</a> held every April at Miami University. 
+
 # National & International Conferences
 
 
@@ -24,6 +26,7 @@ title: "Student Presentations"
 * **Ho, Phuong**, "<a href="https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/AbstractDetails.cfm?abstractid=312740">Data Expo 2020: Temperature Effect on the United States’ Agriculture</a>", 4 August 2020, Joint Statistics Meetings, Virtual
 * **Warkentin, Coby**, "<a href="https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/AbstractDetails.cfm?abstractid=318915">Predicting the Impacts of a Pandemic: An Analysis of the Relationship Between Social Vulnerability and COVID-19 in the United States</a>", 9 August 2021, Joint Statistics Meetings, Virtual
 * **Carter, Lydia**, "<a href="https://ww2.amstat.org/meetings/wsds/2021/onlineprogram/AbstractDetails.cfm?AbstractID=309974">Predicting the Impacts of a Pandemic: An Analysis of the Relationship Between Social Vulnerability and COVID-19 in the United States</a>", *scheduled* 7 October 2021, Women in Data Science & Statistics, Virtual
+* **Everett, Aly**, "<a href="https://ww2.amstat.org/meetings/jsm/2022/onlineprogram/AbstractDetails.cfm?abstractid=323744">An Analysis on the Impact of Socioeconomic Status on Success in School</a>", 7 August 2022, Joint Statistics Meetings, Washington, D.C.
 
 </details>
 
@@ -32,7 +35,6 @@ title: "Student Presentations"
 
 # Undergraduate Research Forum
 
-Students regularly participate and present at the annual <a href="https://www.miamioh.edu/student-research/research-opportunities/urf/index.html">Undergraduate Research Forum</a> held every April.
 
 <details>
 <summary>Click to expand</summary>
@@ -47,7 +49,9 @@ Students regularly participate and present at the annual <a href="https://www.mi
 * **Schweitzer, Benjamin**, <a href="https://www.miamioh.edu/_files/documents/research/student-research/undergrad-research-forum-brochure-2019_508.pdf">2019 URF</a>, "An Analysis of Rent-Control Policy on Housing Quality", co-advised with Karsten Maurer
 * **Tuiyott, Alison**, <a href="https://www.miamioh.edu/_files/documents/research/student-research/undergrad-research-forum-brochure-2019_508.pdf">2019 URF</a>, "Immigration Generation Status to Quality of Life Over Time", co-advised with Karsten Maurer
 * **Carter, Lydia**, <a href="https://sites.miamioh.edu/undergraduate-research-forum/an-analysis-of-climate-change-impact-on-society/">2020 URF</a>, "An Analysis of Climate Change Impact on Society", co-advised with Karsten Maurer
-* **Warkentin, Coby** and **Carter, Lydia**, <a href="https://sites.miamioh.edu/undergraduate-research-forum/an-analysis-of-the-relationship-between-social-vulnerability-and-covid-19-impact-in-the-united-states/">2021 URF</a>, An Analysis of the Relationship Between Social Vulnerability and COVID-19 Impact in the United States"
+* **Warkentin, Coby** and **Carter, Lydia**, <a href="https://sites.miamioh.edu/undergraduate-research-forum/an-analysis-of-the-relationship-between-social-vulnerability-and-covid-19-impact-in-the-united-states/">2021 URF</a>, "An Analysis of the Relationship Between Social Vulnerability and COVID-19 Impact in the United States"
+* **Everett, Aly**, <a href="https://sites.miamioh.edu/undergraduate-research-forum/c24-an-analysis-on-the-impact-of-socioeconomic-status-on-success-in-school/">2022 URF</a>, "An Analysis on the Impact of Socioeconomic Status on Success in School"
+
 </details>
 
 

@@ -9,8 +9,8 @@ title: "Teaching: Courses and Syllabus"
 
 * STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>, <a href="syllabi/2020fallSTA261.pdf">fa20</a>, <a href="syllabi/2021sprSTA261.pdf">sp21</a>
 * STA 301 - Applied Statistics - <a href="syllabi/2014winterSTA301.pdf">w14</a>, <a href="syllabi/2015sprSTA301.pdf">sp15</a>
-* STA 308 - Introduction to Programming and Scripting for Data Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>, <a href="syllabi/2022sprSTA308.pdf">sp22</a>
-* STA 309 - Building, Managing and Exploring Data Sets in Analytics - <a href="syllabi/2022sprSTA309.pdf">sp22</a>
+* STA 308 - Introduction to Programming and Scripting for Data Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>, <a href="syllabi/2022sprSTA308.pdf">sp22</a>, <a href="syllabi/2022fallSTA308.pdf">fa22</a>
+* STA 309 - Building, Managing and Exploring Data Sets in Analytics - <a href="syllabi/2022sprSTA309.pdf">sp22</a>, <a href="syllabi/2022fallSTA309.pdf">fa22</a>
 * STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a>
 * STA 401/501 - Probability - <a href="syllabi/2014fallSTA401.pdf">fa14</a>
 * STA 402/502 - Statistical Programming - <a href="syllabi/2016sprSTA402.pdf">sp16</a>, <a href="syllabi/2017sprSTA402.pdf">sp17</a>, <a href="syllabi/2017fallSTA402.pdf">fa17</a>, <a href="syllabi/2018sprSTA402.pdf">sp18</a>, <a href="syllabi/2019sprSTA402.pdf">sp19</a>

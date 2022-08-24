@@ -13,7 +13,7 @@
 
 <title>Some ‘cool’ visualization results</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -255,7 +259,7 @@ $(document).ready(function () {
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Undergraduate Research
      
     <span class="caret"></span>
@@ -273,7 +277,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -327,42 +331,82 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="fun-with-voronoi-diagrams" class="section level1">
 <h1>Fun with Voronoi diagrams</h1>
-<p>While participating in the 2018 DataFest competition, students Robert Garrett and Austin Nar hacked together a visual display where <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagrams</a> (or Dirichlet tesselations) were used to segment the United Stations into regions centered with the 20 largest metropolatian areas. After some strong encourage the two students bundled together the result into the R package <a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>. Below are some of the ‘fun’ visuals we made with this tool.</p>
+<p>While participating in the 2018 DataFest competition, students Robert
+Garrett and Austin Nar hacked together a visual display where
+<a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi
+diagrams</a> (or Dirichlet tesselations) were used to segment the United
+Stations into regions centered with the 20 largest metropolatian areas.
+After some strong encourage the two students bundled together the result
+into the R package
+<a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>.
+Below are some of the ‘fun’ visuals we made with this tool.</p>
 <div id="basketball-animation" class="section level2">
 <h2>Basketball animation</h2>
 <p><a href="http://users.miamioh.edu/fishert4/bball2.html" target="_blank" rel="noopener noreferrer"><img src="dataviz/bball.jpg" style="width:35%; border:0px solid; margin-right: 1px" alt="A still shot of a basketball game with Voronoi diagrams around defensive players" title="A still shot of a basketball game with Voronoi diagrams around defensive players" align="right"></img></a></p>
-<p>Here we have a still image from an NBA game and a video of an animation. Specifically we</p>
+<p>Here we have a still image from an NBA game and a video of an
+animation. Specifically we</p>
 <ul>
-<li>took NBA player tracking data from the 2015-2016 season (the players and the ball were tracked 24 frames per second) recording the <span class="math inline">\(x,y\)</span> coordinates.</li>
-<li>We build the optimal Voronoi diagram around each defender on the court – in a naive way you can think of the area within the Voronoi region as their defensive responsibility.</li>
-<li>The image to the right is from the Cleveland Cavaliers and the Golden State warriors on December 25th, 2015.</li>
-<li>If you click the image, or follow <a href="http://users.miamioh.edu/fishert4/bball2.html" target="_blank" rel="noopener noreferrer">this link</a>, you can see an animation of the game between the San Antonio Spurs &amp; Minnesota Timberwolves on December 15th, 2015.</li>
+<li>took NBA player tracking data from the 2015-2016 season (the players
+and the ball were tracked 24 frames per second) recording the <span
+class="math inline">\(x,y\)</span> coordinates.</li>
+<li>We build the optimal Voronoi diagram around each defender on the
+court – in a naive way you can think of the area within the Voronoi
+region as their defensive responsibility.</li>
+<li>The image to the right is from the Cleveland Cavaliers and the
+Golden State warriors on December 25th, 2015.</li>
+<li>If you click the image, or follow
+<a href="http://users.miamioh.edu/fishert4/bball2.html" target="_blank" rel="noopener noreferrer">this
+link</a>, you can see an animation of the game between the San Antonio
+Spurs &amp; Minnesota Timberwolves on December 15th, 2015.</li>
 </ul>
 </div>
 <div id="elevation-map" class="section level2">
 <h2>Elevation map</h2>
-<p>The <a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a> package was used by Ben Schweitzer during the 2018 Data Expo competition and we constructed this ‘fun’ topological map from the data.</p>
+<p>The
+<a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>
+package was used by Ben Schweitzer during the 2018 Data Expo competition
+and we constructed this ‘fun’ topological map from the data.</p>
 <p><img src="dataviz/ncdcVoronoiNAmap.jpg" style="width:28%; border:0px solid; margin-right: 30px" alt="A map of elevations of North America built with Voronoi diagrams" title="A map of elevations of North America built with Voronoi diagrams" align="left"></img></p>
 <ul>
-<li>The competition entailed looking at the accuracy of weather forecast and Ben was using the <a href="https://www.ncdc.noaa.gov/">National Centers for Environmental Information from NOAA</a> land based weather records as part of his analysis.</li>
-<li>Each weather station in the NOAA dataset has a recorded latitude, longitude and elevation.</li>
-<li>We used the latitude and longitude to build the Voronoi regions.</li>
-<li>Each region is then filled with a color corresponding to the elevation.</li>
-<li>Note this map is not perfect (see Nebraska and all the weather stations reporting a 0 meter elevation) but overall captures the topography of North America.</li>
+<li>The competition entailed looking at the accuracy of weather forecast
+and Ben was using the <a href="https://www.ncdc.noaa.gov/">National
+Centers for Environmental Information from NOAA</a> land based weather
+records as part of his analysis.</li>
+<li>Each weather station in the NOAA dataset has a recorded latitude,
+longitude and elevation.</li>
+<li>We used the latitude and longitude to build the Voronoi
+regions.</li>
+<li>Each region is then filled with a color corresponding to the
+elevation.</li>
+<li>Note this map is not perfect (see Nebraska and all the weather
+stations reporting a 0 meter elevation) but overall captures the
+topography of North America.</li>
 </ul>
 <p><br/> <br/></p>
 </div>
 </div>
 <div id="changing-hardiness-zones-in-time" class="section level1">
 <h1>Changing Hardiness Zones in time</h1>
-<p>As part of the 2020 Data Expo competition, Phuong Ho and Lydia Carter looked at the historic land-station weather data from the <a href="https://www.ncdc.noaa.gov/">National Centers for Environmental Information from NOAA</a>. Specifically our team did the following:</p>
+<p>As part of the 2020 Data Expo competition, Phuong Ho and Lydia Carter
+looked at the historic land-station weather data from the
+<a href="https://www.ncdc.noaa.gov/">National Centers for Environmental
+Information from NOAA</a>. Specifically our team did the following:</p>
 <p><img src="dataviz/hardinessGif.gif" style="width:56.5%; border:0px solid; margin-right: 1px" alt="An animation of the changing of 'Hardiness Zones' in time" title="An animation of the changing of 'Hardiness Zones' in time" align="right"></img></p>
 <ul>
-<li>For each weather station in the contiguous United States we found the minimum low temperature for each year since 1890.</li>
-<li>For each station we then computed a 30-year “moving average” low temperature; computed over years 1890-1920, 1895-1925, 1900-1930, …</li>
-<li>The contiguous United States was segmented into 200,000 blocks and an Inverse Distance Linear interpolation was performed on each block to predict that locations average low temperature using the computed 30-year average low temperature of all weather stations as the inputs.</li>
-<li>Hardiness zones were assigned in each 30-year window as defined by the <a href="https://planthardiness.ars.usda.gov/">USDA</a> for each of the 200,000 blocks.</li>
-<li>Maps were rendered for each window and all images were then animated into a gif.</li>
+<li>For each weather station in the contiguous United States we found
+the minimum low temperature for each year since 1890.</li>
+<li>For each station we then computed a 30-year “moving average” low
+temperature; computed over years 1890-1920, 1895-1925, 1900-1930, …</li>
+<li>The contiguous United States was segmented into 200,000 blocks and
+an Inverse Distance Linear interpolation was performed on each block to
+predict that locations average low temperature using the computed
+30-year average low temperature of all weather stations as the
+inputs.</li>
+<li>Hardiness zones were assigned in each 30-year window as defined by
+the <a href="https://planthardiness.ars.usda.gov/">USDA</a> for each of
+the 200,000 blocks.</li>
+<li>Maps were rendered for each window and all images were then animated
+into a gif.</li>
 </ul>
 </div>
 
