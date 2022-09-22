@@ -61,6 +61,11 @@ title: "Teaching: Datasets for classes"
     + <a href="data/penguins2007.csv">penguins2007.csv</a>
     + <a href="data/penguins2008.txt">penguins2008.txt</a>
     + <a href="data/penguins2009.RData">penguins2009.RData</a>
+* University League Tables
+    + Data from: "University league tables have no legs to stand on" by Adrian Barnett, Elizabeth Gadd
+    + <a href="data/senior_expert_ratings_tall.csv">senior_expert_ratings_tall.csv</a> in a "tall" format
+    + <a href="data/senior_expert_ratings_wide.csv">senior_expert_ratings_wide.csv</a> in a "wide" format
+    
     
 
 

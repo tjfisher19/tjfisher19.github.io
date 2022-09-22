@@ -1,0 +1,25 @@
+Rating,Agency,Assessment
+Good governance,THE,0.5
+Good governance,ARWU,0.388888889
+Good governance,Leiden,0.625
+Good governance,Multirank,0.666666667
+Good governance,QS,0.727272727
+Good governance,USNEWS,0.428571429
+Transparency,THE,0.454545455
+Transparency,ARWU,0.791666667
+Transparency,Leiden,0.791666667
+Transparency,Multirank,0.75
+Transparency,QS,0.583333333
+Transparency,USNEWS,0.583333333
+Measure what matters,THE,0.321428571
+Measure what matters,ARWU,0.25
+Measure what matters,Leiden,0.666666667
+Measure what matters,Multirank,0.75
+Measure what matters,QS,0.3
+Measure what matters,USNEWS,0.285714286
+Rigour,THE,0.307692308
+Rigour,ARWU,0.4375
+Rigour,Leiden,0.875
+Rigour,Multirank,0.384615385
+Rigour,QS,0.384615385
+Rigour,USNEWS,0.423076923
