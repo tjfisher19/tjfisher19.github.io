@@ -13,6 +13,7 @@ title: "Teaching: Datasets for classes"
 * Baseball Hitting Statistics
     + http://www.seanlahman.com/baseball-archive/statistics/
     + <a href="data/Lahman_Batting2018.csv">Lahman_Batting2018.csv</a>
+    + <a href="data/Lahman_Batting2021.csv">Lahman_Batting2021.csv</a>
 * Yearly Mean Sunspots
     + http://www.sidc.be/silso/infosnytot
     + <a href="data/sunspots_yearly.csv">sunspots_yearly.csv</a>
