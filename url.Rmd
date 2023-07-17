@@ -37,7 +37,7 @@ We have been quite successful over the years in the various competitions, if int
 * Matthew Snyder, c/o 2021
 * <a href="https://www.linkedin.com/in/lydia-carter-oh/">Lydia Carter</a>, c/o 2021 - Current MS Statistics student at Miami
 * <a href="https://www.linkedin.com/in/coby-warkentin-650b1a191/">Coby Warkentin</a>
-* Alyson Everett, c/o 2022
+* Alyson Everett, c/o 2023
 </details>
 
 
@@ -48,8 +48,8 @@ We have been quite successful over the years in the various competitions, if int
 * Renwick, William H., Vanni, Michael J., Fisher, T.J., **Morris, Emily L.**, "<a href="https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/jeq2018.04.0162">Stream Nitrogen, Phosphorus, and Sediment Concentrations Show Contrasting Long-term Trends Associated with Agricultural Change</a>", *Journal of Environmental Quality*, 47: 1513-1521, November 2018. (`10.2134/jeq2018.04.0162`)
 * **Garrett, Robert C.**, **Nar, Austin**, Fisher, T.J. and Maurer, K.T., "<a href="https://joss.theoj.org/papers/10.21105/joss.01096">ggvoronoi: Voronoi Diagrams and Heatmaps with ggplot2</a>", *Journal of Open Source Software*, 3 (32), 1096, December 2018.  (`10.21105/joss.01096`)
    + R Package: <a href="https://cran.r-project.org/web/packages/ggvoronoi/index.html">ggvoronoi</a>: Voronoi Diagrams and Heatmaps with 'ggplot2'
-* **Philips, Cody**, **Garrett, Robert**, **Tatro, A.J.** and Fisher, T.J., "<a href="https://link.springer.com/article/10.1007/s00180-021-01072-9">Crash-Safety Ratings and the True Assessment of Injuries by Vehicle</a>", *Computational Statistics*, 36, 1639–1660 February 2021.   (`10.1007/s00180-021-01072-9`)
-
+* **Philips, Cody**, **Garrett, Robert**, **Tatro, A.J.** and Fisher, T.J., "<a href="https://link.springer.com/article/10.1007/s00180-021-01072-9">Crash-Safety Ratings and the True Assessment of Injuries by Vehicle</a>", *Computational Statistics*, 36, 1639–1660, February 2021.   (`10.1007/s00180-021-01072-9`)
+* **Schweitzer, Benjamin**, **Garrett, Robert C.**, **Rook, Nichole** and Fisher, T.J., "<a href="https://link.springer.com/article/10.1007/s00180-023-01336-6">A spatial extension of weather forecasts</a>", *Computational Statistics*,  38, 1157–1171, September 2023. (`10.1007/s00180-023-01336-6`)
 
 # Faculty collaborators
 

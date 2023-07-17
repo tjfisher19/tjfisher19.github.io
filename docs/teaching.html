@@ -13,7 +13,7 @@
 
 <title>Teaching: Courses and Syllabus</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -343,10 +340,11 @@ $(document).ready(function () {
 <li>STA 308 - Introduction to Programming and Scripting for Data
 Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>,
 <a href="syllabi/2022sprSTA308.pdf">sp22</a>,
-<a href="syllabi/2022fallSTA308.pdf">fa22</a></li>
+<a href="syllabi/2022fallSTA308.pdf">fa22</a>, fa23</li>
 <li>STA 309 - Building, Managing and Exploring Data Sets in Analytics -
 <a href="syllabi/2022sprSTA309.pdf">sp22</a>,
-<a href="syllabi/2022fallSTA309.pdf">fa22</a></li>
+<a href="syllabi/2022fallSTA309.pdf">fa22</a>,
+<a href="syllabi/2023sprSTA309.pdf">sp23</a></li>
 <li>STA 363 - Introduction to Statistical Modeling -
 <a href="syllabi/2018sprSTA363.pdf">sp18</a>,
 <a href="syllabi/2018fallSTA363.pdf">fa18</a>,
@@ -360,11 +358,12 @@ Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>,
 <a href="syllabi/2017sprSTA402.pdf">sp17</a>,
 <a href="syllabi/2017fallSTA402.pdf">fa17</a>,
 <a href="syllabi/2018sprSTA402.pdf">sp18</a>,
-<a href="syllabi/2019sprSTA402.pdf">sp19</a></li>
+<a href="syllabi/2019sprSTA402.pdf">sp19</a>, fa23</li>
 <li>STA 404/504 - Advanced Data Visualization -
 <a href="syllabi/2019fallSTA404.pdf">fa19</a>,
 <a href="syllabi/2020sprSTA404.pdf">sp20</a>,
-<a href="syllabi/2021fallSTA404.pdf">fa21</a></li>
+<a href="syllabi/2021fallSTA404.pdf">fa21</a>,
+<a href="syllabi/2023sprSTA404.pdf">sp23</a></li>
 <li>STA 462/562 - Inferential Statistics -
 <a href="syllabi/2013fallSTA462.pdf">fa13</a>,
 <a href="syllabi/2014fallSTA462.pdf">fa14</a></li>
@@ -379,8 +378,10 @@ Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>,
 <a href="syllabi/2016fallSTA483.pdf">fa16</a>,
 <a href="syllabi/2017sprSTA483.pdf">sp17</a>,
 <a href="syllabi/2018fallSTA483.pdf">fa18</a></li>
-<li>STA 650 - Topics in Statistics - Stochaics Module -
-<a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a></li>
+<li>STA 650, 652 - Topics in Statistics - Stochastics Module -
+<a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a>,
+<a href="syllabi/2023sprSTA652stochastics.pdf">sp23</a></li>
+<li>STA 651 - Generalized Linear Models - fa23</li>
 <li>STA 664 - Theory of Statistics I -
 <a href="syllabi/2016fallSTA664.pdf">fa16</a></li>
 <li>STA 665 - Theory of Statistics II -

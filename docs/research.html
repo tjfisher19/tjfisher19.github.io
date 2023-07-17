@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -348,6 +345,10 @@ Profile</a></p>
 <h3>
 Selected Publications
 </h3>
+<details>
+<summary>
+Click to expand
+</summary>
 <ul>
 <li><p><strong>Fisher, Thomas J.</strong>, Sun, Xiaoqian, Gallagher,
 Colin M., <a href="http://dx.doi.org/10.1016/j.jmva.2010.07.004">A New
@@ -398,23 +399,28 @@ Stephen P., Vanni, Michael J.
 and Modeling Changes in a Time Series of Proportions</a>, <em>Annals of
 Applied Statistics</em>, Vol. 16 Number 1, 477-494, 2022.</p></li>
 </ul>
+</details>
 <h3>
 Selected Presentations
 </h3>
 <ul>
 <li><p><a href="works/mtu_fisherTalk.pdf">Detecting and modeling changes
 in a time series of proportions: An application to phytoplankton taxa in
-a freshwater lake</a>, Invited Presentation to the Michigan Tech
-Kliakhandler Conference on Statistics and Statistical Genetics, August
-2017. (19.3MB pdf)</p></li>
+a freshwater lake</a>, Invited Presentation to the <strong>Michigan Tech
+Kliakhandler Conference on Statistics and Statistical Genetics</strong>,
+August 2017. (19.3MB pdf)</p></li>
 <li><p><a href="works/jsm_cheapTrickPresentation.pdf">A Cheap Trick to
 Improve the Power of a Conservative Hypothesis Test</a>, Invited
-Presentation to Joint Statistics Meetings, August 2020. (3.4MB
-pdf)</p></li>
+Presentation to <strong>Joint Statistics Meetings</strong>, August 2020.
+(3.4MB pdf)</p></li>
 <li><p><a href="works/jsm21_autocovarianceTestingPresentation.pdf">On
 Testing for the Equality of Autocovariance Between Time Series</a>,
-Contributed Talk to Joint Statistics Meetings, August 2021 (1
-MB)</p></li>
+Contributed Talk to <strong>Joint Statistics Meetings</strong>, August
+2021 (1 MB pdf)</p></li>
+<li><p><a href="works/wsc23_detecingChangesProportions.pdf">Detecting
+and Modeling Changes in a Time Series of Continuous Proportions</a>,
+Invited Presentation to the <strong>World Statistics Congress</strong>,
+July 2023. (21.8MB pdf)</p></li>
 </ul>
 <h3>
 Other Publications

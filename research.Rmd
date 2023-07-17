@@ -20,6 +20,9 @@ My general research focus falls under the umbrella of mathematical statistics wi
 
 <h3>Selected Publications</h3>
 
+<details>
+<summary>Click to expand</summary>
+
 * **Fisher, Thomas J.**, Sun, Xiaoqian, Gallagher, Colin M.,
  <a href="http://dx.doi.org/10.1016/j.jmva.2010.07.004">A New Test for Sphericity of the Covariance Matrix for High Dimensional Data</a>, 
  *Journal of Multivariate Analysis*, Vol. 101, No. 10, Nov. 2010, 2554-2570.
@@ -46,15 +49,18 @@ My general research focus falls under the umbrella of mathematical statistics wi
 
 * **Fisher, Thomas J.**, Zhang, Jing, Colegate, Stephen P., Vanni, Michael J. <a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-16/issue-1/Detecting-and-modeling-changes-in-a-time-series-of-proportions/10.1214/21-AOAS1509.pdf">Detecting and Modeling Changes in a Time Series of Proportions</a>, *Annals of Applied Statistics*, Vol. 16 Number 1, 477-494, 2022.
 
+</details>
+
 <h3>Selected Presentations</h3>
 
-* <a href="works/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics, August 2017. (19.3MB pdf)
+* <a href="works/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the **Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics**, August 2017. (19.3MB pdf)
 
 * <a href="works/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, 
-Invited Presentation to Joint Statistics Meetings, August 2020. (3.4MB pdf)
+Invited Presentation to **Joint Statistics Meetings**, August 2020. (3.4MB pdf)
 
-* <a href="works/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to Joint Statistics Meetings, August 2021 (1 MB)
+* <a href="works/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to **Joint Statistics Meetings**, August 2021 (1 MB pdf)
 
+* <a href="works/wsc23_detecingChangesProportions.pdf">Detecting and Modeling Changes in a Time Series of Continuous Proportions</a>, Invited Presentation to the **World Statistics Congress**, July 2023. (21.8MB pdf)
 
 <h3>Other Publications</h3>
 
