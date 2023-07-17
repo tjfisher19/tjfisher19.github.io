@@ -67,6 +67,11 @@ title: "Teaching: Datasets for classes"
     + Data from: "University league tables have no legs to stand on" by Adrian Barnett, Elizabeth Gadd
     + <a href="data/senior_expert_ratings_tall.csv">senior_expert_ratings_tall.csv</a> in a "tall" format
     + <a href="data/senior_expert_ratings_wide.csv">senior_expert_ratings_wide.csv</a> in a "wide" format
+* Sports Viewership Data
+    + <a href="data/viewership_data.csv">viewership_data.csv</a>
+    + Data to mimic the first plot from fivethirtyeight: https://fivethirtyeight.com/features/how-massive-the-nfl-really-is-in-4-charts/
+    + Data was obtained via wikipedia for the various sports
+
     
     
 
