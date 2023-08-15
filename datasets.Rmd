@@ -71,7 +71,10 @@ title: "Teaching: Datasets for classes"
     + <a href="data/viewership_data.csv">viewership_data.csv</a>
     + Data to mimic the first plot from fivethirtyeight: https://fivethirtyeight.com/features/how-massive-the-nfl-really-is-in-4-charts/
     + Data was obtained via wikipedia for the various sports
-
+* Automobile Fuel Efficiency
+    + <a href="data/auto-mpg-data-original.txt">auto-mpg-data-original.txt</a>
+    + Originally from: https://archive.ics.uci.edu/dataset/9/auto+mpg
+    
     
     
 
