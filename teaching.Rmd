@@ -10,7 +10,7 @@ title: "Teaching: Courses and Syllabus"
 * STA 261 - Statistcs - <a href="syllabi/2014sprSTA261.pdf">sp14</a>, <a href="syllabi/2020fallSTA261.pdf">fa20</a>, <a href="syllabi/2021sprSTA261.pdf">sp21</a>
 * STA 301 - Applied Statistics - <a href="syllabi/2014winterSTA301.pdf">w14</a>, <a href="syllabi/2015sprSTA301.pdf">sp15</a>
 * STA 308 - Introduction to Programming and Scripting for Data Analytics - <a href="syllabi/2021fallSTA308.pdf">fa21</a>, <a href="syllabi/2022sprSTA308.pdf">sp22</a>, <a href="syllabi/2022fallSTA308.pdf">fa22</a>,
-fa23
+<a href="syllabi/2023fallSTA308.pdf">fa23</a>
 * STA 309 - Building, Managing and Exploring Data Sets in Analytics - <a href="syllabi/2022sprSTA309.pdf">sp22</a>, <a href="syllabi/2022fallSTA309.pdf">fa22</a>,
 <a href="syllabi/2023sprSTA309.pdf">sp23</a>
 * STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a>
@@ -24,7 +24,7 @@ fa23
 * STA 483/583 - Analysis of Forecasting Systems - <a href="syllabi/2014sprSTA483.pdf">sp14</a>, <a href="syllabi/2015sprSTA483.pdf">sp15</a>, <a href="syllabi/2016sprSTA483.pdf">sp16</a>, <a href="syllabi/2016fallSTA483.pdf">fa16</a>, <a href="syllabi/2017sprSTA483.pdf">sp17</a>, <a href="syllabi/2018fallSTA483.pdf">fa18</a>
 * STA 650, 652 - Topics in Statistics - Stochastics Module - <a href="syllabi/2020sprSTA650stochastics.pdf">sp20</a>,
 <a href="syllabi/2023sprSTA652stochastics.pdf">sp23</a>
-* STA 651 - Generalized Linear Models - fa23
+* STA 651 - Generalized Linear Models - <a href="syllabi/2023fallSTA651glm.pdf">fa23</a>
 * STA 664 - Theory of Statistics I - <a href="syllabi/2016fallSTA664.pdf">fa16</a>
 * STA 665 - Theory of Statistics II - <a href="syllabi/2017sprSTA665.pdf">sp17</a>
 * STA 667 - Multivariate Analysis - <a href="syllabi/2013fallSTA667.pdf">fa13</a>
