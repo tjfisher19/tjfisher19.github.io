@@ -74,7 +74,11 @@ title: "Teaching: Datasets for classes"
 * Automobile Fuel Efficiency
     + <a href="data/auto-mpg-data-original.txt">auto-mpg-data-original.txt</a>
     + Originally from: https://archive.ics.uci.edu/dataset/9/auto+mpg
-    
+* Fabricated <i>toy</i> dataset of Bachelor of Arts - Data Analytics students
+    + CSV Format: <a href="data/bada_students_csv.txt">bada_students_csv.txt</a>
+    + Space Separated: <a href="data/bada_students_tab.txt">bada_students_tab.txt</a>
+    + Fixed Width: <a href="data/bada_students_fwf.txt">bada_students_fwf.txt</a>
+
     
     
 

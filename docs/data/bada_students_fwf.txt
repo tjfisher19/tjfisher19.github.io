@@ -1,0 +1,9 @@
+Alice    113.2
+Bob      102.7
+Carol    102.8
+David    113.9
+Elizabeth203.0
+Frank    202.1
+Gale     302.4
+Han      413.1
+Ingrid   413.3

@@ -1,0 +1,10 @@
+"Names" "Concentration" "AdvancedCourses" "GPA"
+"Alice" "Sports Analytics" TRUE 3.2
+"Bob" "Sports Analytics" FALSE 2.7
+"Carol" "Sports Analytics" FALSE 2.8
+"David" "Sports Analytics" TRUE 3.9
+"Elizabeth" "Social Data Analytics" FALSE 3
+"Frank" "Social Data Analytics" FALSE 2.1
+"Gale" "Bioinformatics" FALSE 2.4
+"Han" "Geospatial Analytics" TRUE 3.1
+"Ingrid" "Geospatial Analytics" FALSE 3.3
