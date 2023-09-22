@@ -78,6 +78,13 @@ title: "Teaching: Datasets for classes"
     + CSV Format: <a href="data/bada_students_csv.txt">bada_students_csv.txt</a>
     + Space Separated: <a href="data/bada_students_tab.txt">bada_students_tab.txt</a>
     + Fixed Width: <a href="data/bada_students_fwf.txt">bada_students_fwf.txt</a>
+* Natality and Population in time
+    + Data is from the US Census and CDC - by year and other demographic information
+    + CDC Natality: <a href="data/natalityInTime0122.RData">natalityInTime0122.RData</a>
+    + US Census Bureau Population Estimates: <a href="data/census_population_by_age_sex.csv">census_population_by_age_sex.csv</a>
+* Stephen Curry game-level statistics in the playoffs
+    + From Basketball reference
+    + Data: <a href="data/stephCurryPlayoffs.csv">stephCurryPlayoffs.csv</a>
 
     
     
