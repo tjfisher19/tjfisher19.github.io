@@ -85,7 +85,10 @@ title: "Teaching: Datasets for classes"
 * Stephen Curry game-level statistics in the playoffs
     + From Basketball reference
     + Data: <a href="data/stephCurryPlayoffs.csv">stephCurryPlayoffs.csv</a>
-
+* CDC Flu & Pneumonia Mortality
+    + 2018: <a href="data/fluPneumonia_2018.csv">fluPneumonia_2018.csv</a>
+    + 2021: <a href="data/fluPneumonia_2021.csv">fluPneumonia_2021.csv</a>
+    
     
     
 
