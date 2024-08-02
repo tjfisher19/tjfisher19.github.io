@@ -53,14 +53,14 @@ My general research focus falls under the umbrella of mathematical statistics wi
 
 <h3>Selected Presentations</h3>
 
-* <a href="works/mtu_fisherTalk.pdf">Detecting and modeling changes in a time series of proportions: An application to phytoplankton taxa in a freshwater lake</a>, Invited Presentation to the **Michigan Tech Kliakhandler Conference on Statistics and Statistical Genetics**, August 2017. (19.3MB pdf)
-
 * <a href="works/jsm_cheapTrickPresentation.pdf">A Cheap Trick to Improve the Power of a Conservative Hypothesis Test</a>, 
 Invited Presentation to **Joint Statistics Meetings**, August 2020. (3.4MB pdf)
 
 * <a href="works/jsm21_autocovarianceTestingPresentation.pdf">On Testing for the Equality of Autocovariance Between Time Series</a>, Contributed Talk to **Joint Statistics Meetings**, August 2021 (1 MB pdf)
 
 * <a href="works/wsc23_detecingChangesProportions.pdf">Detecting and Modeling Changes in a Time Series of Continuous Proportions</a>, Invited Presentation to the **World Statistics Congress**, July 2023. (21.8MB pdf)
+
+* <a href="works/jsm24_acton_nutrient_chpts.pdf">Detecting and Modeling Changes in Stream Nutrient Dynamics</a>, Contributed Talk to **Joint Statistics Meetings**, August 2024 (5.5 MB pdf)
 
 <h3>Other Publications</h3>
 
