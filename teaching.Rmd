@@ -13,7 +13,7 @@ title: "Teaching: Courses and Syllabus"
 <a href="syllabi/2023fallSTA308.pdf">fa23</a>
 * STA 309 - Building, Managing and Exploring Data Sets in Analytics - <a href="syllabi/2022sprSTA309.pdf">sp22</a>, <a href="syllabi/2022fallSTA309.pdf">fa22</a>,
 <a href="syllabi/2023sprSTA309.pdf">sp23</a>
-* STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a>
+* STA 363 - Introduction to Statistical Modeling - <a href="syllabi/2018sprSTA363.pdf">sp18</a>, <a href="syllabi/2018fallSTA363.pdf">fa18</a>, <a href="syllabi/2020sprSTA363.pdf">sp20</a>, <a href="syllabi/2020fallSTA363.pdf">fa20</a>, <a href="syllabi/2021sprSTA363.pdf">sp21</a>, fa25
 * STA 401/501 - Probability - <a href="syllabi/2014fallSTA401.pdf">fa14</a>
 * STA 402/502 - Statistical Programming - <a href="syllabi/2016sprSTA402.pdf">sp16</a>, <a href="syllabi/2017sprSTA402.pdf">sp17</a>, <a href="syllabi/2017fallSTA402.pdf">fa17</a>, <a href="syllabi/2018sprSTA402.pdf">sp18</a>, <a href="syllabi/2019sprSTA402.pdf">sp19</a>
 * STA 404/504 - Advanced Data Visualization - <a href="syllabi/2019fallSTA404.pdf">fa19</a>, <a href="syllabi/2020sprSTA404.pdf">sp20</a>, <a href="syllabi/2021fallSTA404.pdf">fa21</a>,
@@ -28,7 +28,7 @@ title: "Teaching: Courses and Syllabus"
 * STA 664 - Theory of Statistics I - <a href="syllabi/2016fallSTA664.pdf">fa16</a>
 * STA 665 - Theory of Statistics II - <a href="syllabi/2017sprSTA665.pdf">sp17</a>
 * STA 667 - Multivariate Analysis - <a href="syllabi/2013fallSTA667.pdf">fa13</a>
-* STA 672 - Modeling and Study Design - <a href="syllabi/2024fallSTA672.pdf">fa24</a>
+* STA 672 - Modeling and Study Design - <a href="syllabi/2024fallSTA672.pdf">fa24</a>, fa25
 
 
 ### University of Missouri-Kansas City

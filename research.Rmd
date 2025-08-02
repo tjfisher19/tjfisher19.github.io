@@ -49,6 +49,8 @@ My general research focus falls under the umbrella of mathematical statistics wi
 
 * **Fisher, Thomas J.**, Zhang, Jing, Colegate, Stephen P., Vanni, Michael J. <a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-16/issue-1/Detecting-and-modeling-changes-in-a-time-series-of-proportions/10.1214/21-AOAS1509.pdf">Detecting and Modeling Changes in a Time Series of Proportions</a>, *Annals of Applied Statistics*, Vol. 16 Number 1, 477-494, 2022.
 
+* Lund, R., **Fisher, T.J.**, Diawara, N. and Wehner, M., <a href="https://onlinelibrary.wiley.com/doi/10.1111/jtsa.12833">Multiple Changepoint Detection for Non-Gaussian Time Series</a>, *J. Time Ser. Anal.*, 2025.
+
 </details>
 
 <h3>Selected Presentations</h3>
@@ -61,6 +63,8 @@ Invited Presentation to **Joint Statistics Meetings**, August 2020. (3.4MB pdf)
 * <a href="works/wsc23_detecingChangesProportions.pdf">Detecting and Modeling Changes in a Time Series of Continuous Proportions</a>, Invited Presentation to the **World Statistics Congress**, July 2023. (21.8MB pdf)
 
 * <a href="works/jsm24_acton_nutrient_chpts.pdf">Detecting and Modeling Changes in Stream Nutrient Dynamics</a>, Contributed Talk to **Joint Statistics Meetings**, August 2024 (5.5 MB pdf)
+
+* <a href="works/jsm25_baseball_nongaussian_chpts.pdf">Changepoints in non-Gaussian autocorrelated time series</a>, Contributed session to **Joint Statistics Meetings**, August 2025 (8.4 MB pdf)
 
 <h3>Other Publications</h3>
 
