@@ -89,6 +89,9 @@ title: "Teaching: Datasets for classes"
 * CDC Flu & Pneumonia Mortality
     + 2018: <a href="data/fluPneumonia_2018.csv">fluPneumonia_2018.csv</a>
     + 2021: <a href="data/fluPneumonia_2021.csv">fluPneumonia_2021.csv</a>
+* Data from Rossman/Chance Applet Collection
+    + <a href="https://www.nature.com/articles/nn1200_1237">Sleep Deprivation Study</a>: <a href="data/rossman_sleep_deprivation.txt">rossman_sleep_deprivation.txt</a>
+    + <a href="https://pubmed.ncbi.nlm.nih.gov/22451320/">Brain size by exercise</a>: <a href="data/rossman_brain_size.txt">rossman_brain_size.txt</a>
     
     
     
