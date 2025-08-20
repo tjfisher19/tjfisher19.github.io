@@ -92,6 +92,7 @@ title: "Teaching: Datasets for classes"
 * Data from Rossman/Chance Applet Collection
     + <a href="https://www.nature.com/articles/nn1200_1237">Sleep Deprivation Study</a>: <a href="data/rossman_sleep_deprivation.txt">rossman_sleep_deprivation.txt</a>
     + <a href="https://pubmed.ncbi.nlm.nih.gov/22451320/">Brain size by exercise</a>: <a href="data/rossman_brain_size.txt">rossman_brain_size.txt</a>
+    + <a href="https://pubmed.ncbi.nlm.nih.gov/17341711/">Changes in BMI by Diet</a>: <a href="data/rossman_diet_study.csv">rossman_diet_study.csv</a>
     
     
     
