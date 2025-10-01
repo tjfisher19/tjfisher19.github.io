@@ -10,7 +10,7 @@ title: "Research"
     style="width:30%; border:3px solid; margin-left: 20px; margin-right: 5px"
   />
 
-My general research focus falls under the umbrella of mathematical statistics with applications to ecology and finance. Specifically I tend to work on problems in time series and multivariate analysis but I have dabbled in the development machine learning and Bayesian methods.
+My general research focus falls under the umbrella of mathematical statistics with applications to ecology and finance. Specifically I tend to work on problems in time series and multivariate analysis but I have dabbled in the development machine learning and Bayesian methods. I routinely collaborate with colleagues in the biological and physical sciences, and am part of an <a href="https://actonltreb.blog/">Long term Research in Environmental Biology</a> (LTREB) project studying <a href="https://maps.app.goo.gl/cxc4CebuuwKcEG7x8">Acton Lake</a>, sponsored by the National Science Foundation. 
 
 <a href="http://scholar.google.com/citations?user=yWlETysAAAAJ">Google Scholar Profile</a>
 
