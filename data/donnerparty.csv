@@ -1,3 +1,5 @@
-gender,survived,died
-Male,23,29
-Female,24,11
+Age,Sex,Survived,Died
+Child,Male,14,10
+Child,Female,14,5
+Adult,Male,9,20
+Adult,Female,10,5
