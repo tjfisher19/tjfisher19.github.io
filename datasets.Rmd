@@ -98,10 +98,15 @@ In Fall 2025, STA 363 underwent an overall, below are the datasets used for the 
     + <a href="https://www.nature.com/articles/nn1200_1237">Sleep Deprivation Study</a>: <a href="data/rossman_sleep_deprivation.txt">rossman_sleep_deprivation.txt</a>
     + <a href="https://pubmed.ncbi.nlm.nih.gov/22451320/">Brain size by exercise</a>: <a href="data/rossman_brain_size.txt">rossman_brain_size.txt</a>
     + <a href="https://pubmed.ncbi.nlm.nih.gov/17341711/">Changes in BMI by Diet</a>: <a href="data/rossman_diet_study.csv">rossman_diet_study.csv</a>
-* Ohio Small College data
+* Ohio and Midwest Small College data
     + <a href="data/ohio_small_colleges.csv">ohio_small_colleges.csv</a>
-* Supervisors and Workers
-    + <a href="data/supervisors2020.txt">supervisors2020.txt</a>
+    + <a href="data/midwest_small_colleges.csv">midwest_small_colleges.csv</a>
+    + <a href="data/sta363_dataCode_smallCollegeData.R">sta363_dataCode_smallCollegeData.R</a>
+    + Original source: <a href="https://www.collegeresults.org/">collegeresults.org</a>
+* UV Light Penetration Depths and DOC Measures
+    + <a href="data/berry_uv_doc.csv">berry_uv_doc.csv</a>
+    + <a href="data/sta363_dataCode_berryUVdata.R">sta363_dataCode_berryUVdata.R</a>
+    + Berry et al. (2026) <a href="https://doi.org/10.1139/cjfas-2024-0407">Decreased water transparency of nearshore Laurentian Great Lakes habitats is driven by increased dissolved organic carbon</a>. *Canadian Journal of Fisheries and Aquatic Sciences*. 83: 1-9.
 * Dental Hardness (Two-way with block design)
     + <a href="data/dental_filling_hardness.csv">dental_filling_hardness.csv</a>
 * Beverage Sales (Two-way design)
