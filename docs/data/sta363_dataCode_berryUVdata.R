@@ -19,9 +19,11 @@
 ##   the Berry et al paper.
 
 library(tidyverse)
-load("fully_processed_data.RData")
+library(ggfortify)
+load("~/../Desktop/Research/Ecology/berry_nikki_phd_work/greatLakesTransparencyDOC_analysis/fully_processed_data.RData")
 
-set.seed(473)
+
+set.seed(432)
 df <- UVdata |> 
   filter(UVdata$BlagraveID != "Open Sea,\nNo River",
          Season != "Fall") |> 
