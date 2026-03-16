@@ -92,27 +92,41 @@ title: "Teaching: Datasets for classes"
     
 ## Data for STA 363 and 672
 
-In Fall 2025, STA 363 underwent an overall, below are the datasets used for the daily lecture notes in that course.
+In Fall 2025, STA 363 underwent an overall, below are the datasets used for the daily lecture notes in that course (in approximation order of when the data are introduced).
 
 * Data from Rossman/Chance Applet Collection
     + <a href="https://www.nature.com/articles/nn1200_1237">Sleep Deprivation Study</a>: <a href="data/rossman_sleep_deprivation.txt">rossman_sleep_deprivation.txt</a>
     + <a href="https://pubmed.ncbi.nlm.nih.gov/22451320/">Brain size by exercise</a>: <a href="data/rossman_brain_size.txt">rossman_brain_size.txt</a>
     + <a href="https://pubmed.ncbi.nlm.nih.gov/17341711/">Changes in BMI by Diet</a>: <a href="data/rossman_diet_study.csv">rossman_diet_study.csv</a>
+* Dehumidifier Power usage (One-way with Block design)
+    + <a href="data/humidity.txt">humidity.txt</a>
+* Beverage Sales (Two-way design)
+    + <a href="data/beverageSales.csv">beverageSales.csv</a>
+* Dental Hardness (Two-way with block design)
+    + <a href="data/dental_filling_hardness.csv">dental_filling_hardness.csv</a>
+* Nail Withdrawal Strength
+    + <a href="data/nail_strengths.csv">nail_strengths.csv</a>
 * Ohio and Midwest Small College data
     + <a href="data/ohio_small_colleges.csv">ohio_small_colleges.csv</a>
     + <a href="data/midwest_small_colleges.csv">midwest_small_colleges.csv</a>
     + <a href="data/sta363_dataCode_smallCollegeData.R">sta363_dataCode_smallCollegeData.R</a>
     + Original source: <a href="https://www.collegeresults.org/">collegeresults.org</a>
+* Motorboats in Florida and Manatees killed
+    + <a href="data/manatee.csv">manatee.csv</a>
+    + Origin of source: Triola, Mario F. 2004. Elementary Statistics. 9th ed. New York, NY: Pearson Education, Inc.
+    + Data updated from Florida Department of Highway Safety and Motor Vehicles and Florida Fish and Wildlife Conservation Commission.
 * UV Light Penetration Depths and DOC Measures
     + <a href="data/berry_uv_doc.csv">berry_uv_doc.csv</a>
     + <a href="data/sta363_dataCode_berryUVdata.R">sta363_dataCode_berryUVdata.R</a>
     + Berry et al. (2026) <a href="https://doi.org/10.1139/cjfas-2024-0407">Decreased water transparency of nearshore Laurentian Great Lakes habitats is driven by increased dissolved organic carbon</a>. *Canadian Journal of Fisheries and Aquatic Sciences*. 83: 1-9.
-* Dental Hardness (Two-way with block design)
-    + <a href="data/dental_filling_hardness.csv">dental_filling_hardness.csv</a>
-* Beverage Sales (Two-way design)
-    + <a href="data/beverageSales.csv">beverageSales.csv</a>
-* Dehumidifier Power usage (One-way with Block design)
-    + <a href="data/humidity.txt">humidity.txt</a>
+* Nitrate Levels in Hueston Woods State Park
+    + <a href="data/farthing_nitrate.csv">farthing_nitrate.csv</a>
+    + Farthing et al. (2024) <a href="https://doi.org/10.1111/1752-1688.13207">Effects of a Forested State Park on Stream Nutrient Concentrations in an Agriculturally Dominated Watershed in the U.S. Midwest.</a> *Journal of the American Water Resources Association.* 60 (4): 851–64.
+* Car Seat Position
+    + <a href="data/seatpositions.csv">seatpositions.csv</a>
+    + Faraway, J. (2006) Extending the Linear Models with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models. Chapman and Hall/CRC Texts in Statistical Science, Boca Raton, Florida; London, UK; New York, NY.
+    
+
     
 
     
