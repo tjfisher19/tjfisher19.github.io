@@ -100,12 +100,16 @@ In Fall 2025, STA 363 underwent an overall, below are the datasets used for the 
     + <a href="https://pubmed.ncbi.nlm.nih.gov/17341711/">Changes in BMI by Diet</a>: <a href="data/rossman_diet_study.csv">rossman_diet_study.csv</a>
 * Dehumidifier Power usage (One-way with Block design)
     + <a href="data/humidity.txt">humidity.txt</a>
+    + Devore, Jay L., and Kenneth N. Berk. 2012. *Modern Mathematical Statistics with Applications. 2nd ed.* Springer Texts in Statistics. New York, NY: Springer.
 * Beverage Sales (Two-way design)
     + <a href="data/beverageSales.csv">beverageSales.csv</a>
+    + Levine, David M., Timothy C. Krehbiel, and Mark L. Berenson. 2006. *Business Statistics: A First Course. 4th ed.* Upper Saddle River, NJ: Prentice Hall.
 * Dental Hardness (Two-way with block design)
     + <a href="data/dental_filling_hardness.csv">dental_filling_hardness.csv</a>
+    + Oehlert, Gary W. 2000. *A First Course in Design and Analysis of Experiments*. New York, NY: W. H. Freeman.
 * Nail Withdrawal Strength
     + <a href="data/nail_strengths.csv">nail_strengths.csv</a>
+    + Rammer, Douglas R., Selwyn G. Winistorfer, and Donald A. Bender. 2001. “<a href="https://doi.org/10.1061/(ASCE)0733-9445(2001)127:4(442)">Withdrawal Strength of Threaded Nails</a>.” Journal of Structural Engineering 127 (4): 442–49.
 * Ohio and Midwest Small College data
     + <a href="data/ohio_small_colleges.csv">ohio_small_colleges.csv</a>
     + <a href="data/midwest_small_colleges.csv">midwest_small_colleges.csv</a>
@@ -125,6 +129,15 @@ In Fall 2025, STA 363 underwent an overall, below are the datasets used for the 
 * Car Seat Position
     + <a href="data/seatpositions.csv">seatpositions.csv</a>
     + Faraway, J. (2006) Extending the Linear Models with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models. Chapman and Hall/CRC Texts in Statistical Science, Boca Raton, Florida; London, UK; New York, NY.
+* CDC YRBSS Bullying Data
+    + <a href="data/cdc_yrbss_2023.csv">cdc_yrbss_2023.csv</a>
+    + CDC Youth Risk Surveillence System Survey 2023
+    + Original Source: <a href="https://www.cdc.gov/yrbs/index.html">CDC YRBSS Website</a>
+* Spider Cannibalism
+    + <a href="spiderCannibalism.csv">spiderCannibalism.csv</a>
+    + Peck, R., C. Olsen, and J. L. Devore. 2011. *Introduction to Statistics and Data Analysis*. Cengage Learning.
+
+
     
 
     
