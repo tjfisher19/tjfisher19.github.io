@@ -134,8 +134,18 @@ In Fall 2025, STA 363 underwent an overall, below are the datasets used for the 
     + CDC Youth Risk Surveillence System Survey 2023
     + Original Source: <a href="https://www.cdc.gov/yrbs/index.html">CDC YRBSS Website</a>
 * Spider Cannibalism
-    + <a href="spiderCannibalism.csv">spiderCannibalism.csv</a>
+    + <a href="data/spiderCannibalism.csv">spiderCannibalism.csv</a>
     + Peck, R., C. Olsen, and J. L. Devore. 2011. *Introduction to Statistics and Data Analysis*. Cengage Learning.
+* Donner Party Summary Data
+    + <a href="data/donnerparty.csv">donnerparty.csv</a>
+    + Grayson, Donald K. 1990. “Donner Party Deaths: A Demographic Assessment.” *Journal of Anthropological Research* 46 (3): 223–42.
+* Drop Hammer Experiment
+    + <a href="data/conveyor_belt_study.csv">conveyor_belt_study.csv</a>
+    + Andrejiova, Miriam, Anna Grincova, Daniela Marasova, Gabriel Fedorko, and Vieroslav Molnar. 2014. “Using Logistic Regression in Tracing the Significance of Rubber–Textile Conveyor Belt Damage.” Wear 318 (1): 145–52. https://doi.org/10.1016/j.wear.2014.06.026.
+    
+
+    
+
 
 
     
